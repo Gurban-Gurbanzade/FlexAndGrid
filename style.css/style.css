@@ -23,17 +23,22 @@ body {
 .page__contact__real__mail {
     border: 1px solid black;
     padding: 0 20px;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .page__contact__real__adress {
     border: 1px solid black;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .page__contact__real__tel {
     border: 1px solid black;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .page__contact__social {
@@ -46,21 +51,28 @@ body {
 .page__contact__social__facebook {
     border: 1px solid black;
     padding: 0 10px;
+    display: flex;
 }
 
 .page__contact__social__twittwer {
     border: 1px solid black;
     padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .page__contact__social__pinterest {
     border: 1px solid black;
     padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .page__contact__social__linkedin {
     border: 1px solid black;
     padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nawbar {
@@ -71,7 +83,7 @@ body {
     align-items: center;
 }
 
-.nawbar__logo {}
+
 
 nav ul li {
     display: inline;
@@ -82,6 +94,8 @@ nav ul li {
     display: flex;
     flex-direction: column;
     padding: 60 0;
+    background-image: url("image/doctor.jpg");
+    margin: 60 0;
 
 }
 
