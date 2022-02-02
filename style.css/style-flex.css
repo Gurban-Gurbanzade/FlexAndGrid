@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+.contact {
+    background-color: #0C5ADB;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.nawbar {
+    background-color: rgb(221, 218, 218);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nawbar__logo {
+    width: 90px;
+    height: 50px;
+
+}
+
+.nawbar__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.nawbar__nav__button {
+    background-color: #0C5ADB;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section3 {
+    background-image: url(../image/doctor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 30px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-startcenter;
+    justify-content: space-around;
+
+}
+
+.section3__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3__text__1 {
+    color: blue;
+    font-size: large;
+    margin: 0px;
+}
+
+.section3__text__2 {
+    color: blue;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.section3__text__3 {
+    color: blue;
+    font-size: medium;
+    margin: 0px;
+    width: 500px;
+}
+
+.section3__button {
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section3__button__1 {
+    border-radius: 5px;
+    color: white;
+    background-color: #0C5ADB;
+    width: 120px;
+    height: 50px;
+}
+
+.section3__button__2 {
+    border-radius: 5px;
+    color: white;
+    background-color: #00247E;
+    width: 120px;
+    height: 50px;
+}
