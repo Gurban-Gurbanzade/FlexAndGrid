@@ -107,9 +107,33 @@ body {
 
 }
 
+.itinfo {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
 
+.itinfo div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+}
 
+.itinfo div img {
+    margin: 0 auto;
+}
 
+.itinfo__4 {
+    grid-column: 1 / 2.5;
+}
+
+.itinfo__5 {
+    grid-column: 2.5 / 4;
+}
 
 
 
