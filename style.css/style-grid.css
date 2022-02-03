@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.adress {
+    background-color: #0C5ADB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.adress ul {
+    padding: 0;
+}
+
+.adress ul li {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+
+.nawbar {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 155px auto 155px;
+}
+
+.nawbar nav {
+    margin-left: auto;
+}
+
+.nawbar ul li {
+    display: inline;
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+}
+
+.nawbar button {
+    background-color: #0C5ADB;
+    color: white;
+    font-size: 15px;
+}
