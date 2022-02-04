@@ -55,7 +55,7 @@ nav ul li {
 }
 
 .section3 {
-    background-image: url(../image/doctor.jpg);
+    background-image: url(../image-flex/doctor.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -140,12 +140,30 @@ nav ul li {
     display: flex;
     justify-content: center;
     height: 500px;
+    justify-items: center;
 }
 
+
+
 .section5__text {
+
     border: 1px solid black;
     flex-grow: 50%;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+.section5__text button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0C5ADB;
+    width: 120px;
+    height: 50px;
+
 }
 
 .section5__image {
@@ -157,4 +175,11 @@ nav ul li {
 .section5__image img {
     height: 230px;
     width: 330px;
+}
+
+.section5__image__2 {
+    border: 10px solid white;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: -30px;
 }
