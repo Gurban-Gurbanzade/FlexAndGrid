@@ -1,1 +1,1 @@
-Kursda verilən tapşırıqları adlarına uyğun qovlarda yerləşdirmişəm.
+Kursda verilən tapşırıqları adlarına uyğun qovluqlarda yerləşdirmişəm.
