@@ -1,5 +1,6 @@
+/* single ve rounded sectionlarinin buttonlarının css kodları */
 .primary {
-    color: white;
+
     background-color: #5E2572;
 }
 
@@ -41,6 +42,7 @@
 
 .info {
     background-color: #4D13D1;
+
 }
 
 .info:hover {
@@ -57,17 +59,104 @@
 
 .dark {
     background-color: #4F4A60;
+
 }
 
 .dark:hover {
     background-color: #383542;
 }
 
-.link {
-    background-color: #FFFFFF;
-    color: blue;
-}
+
 
 .link:hover span {
     border-bottom: 1px solid blue;
+}
+
+/* outlined */
+.outlined .primary {
+    border: 1px solid #5E2572;
+    color: #5E2572;
+}
+
+.outlined .primary:hover {
+    border: 1px solid #5E2572;
+    color: white;
+    background-color: #5E2572;
+}
+
+.outlined .secondary {
+    background-color: white;
+    border: 1px solid #D9DBDC;
+    color: #D9DBDC;
+}
+
+.outlined .secondary:hover {
+    background-color: #D9DBDC;
+    color: black;
+}
+
+.outlined .succes {
+    background-color: white;
+    border: 1px solid #00C689;
+    color: #00C689;
+}
+
+.outlined .succes:hover {
+    background-color: #00C689;
+    color: white;
+}
+
+.outlined .danger {
+    background-color: white;
+    border: 1px solid #FC7242;
+    color: #FC7242;
+}
+
+.outlined .danger:hover {
+    background-color: #FC7242;
+    color: white;
+}
+
+.outlined .warning {
+    background-color: white;
+    border: 1px solid #FFC100;
+    color: #FFC100;
+}
+
+.outlined .warning:hover {
+    background-color: #FFC100;
+    color: black;
+}
+
+.outlined .info {
+    background-color: white;
+    border: 1px solid #4D13D1;
+    color: #4D13D1;
+}
+
+.outlined .info:hover {
+    background-color: #4D13D1;
+    color: white;
+}
+
+.outlined .light {
+    background-color: white;
+    border: 1px solid #F8F9FA;
+    color: #F8F9FA;
+}
+
+.outlined .light:hover {
+    background-color: #F8F9FA;
+    color: black;
+}
+
+.outlined .dark {
+    background-color: white;
+    border: 1px solid #4F4A60;
+    color: #4F4A60;
+}
+
+.outlined .dark:hover {
+    background-color: #4F4A60;
+    color: white;
 }
