@@ -8,10 +8,66 @@
 }
 
 .secondary {
-    color: black;
     background-color: #D9DBDC;
 }
 
 .secondary:hover {
     background-color: #9da1a3;
+}
+
+.succes {
+    background-color: #00C689;
+}
+
+.succes:hover {
+    background-color: #009468;
+}
+
+.danger {
+    background-color: #FC7242;
+}
+
+.danger:hover {
+    background-color: #ff4000;
+}
+
+.warning {
+    background-color: #FFC100;
+}
+
+.warning:hover {
+    background-color: #977100;
+}
+
+.info {
+    background-color: #4D13D1;
+}
+
+.info:hover {
+    background-color: #2a008b;
+}
+
+.light {
+    background-color: #F8F9FA;
+}
+
+.light:hover {
+    background-color: #b1b1b1;
+}
+
+.dark {
+    background-color: #4F4A60;
+}
+
+.dark:hover {
+    background-color: #383542;
+}
+
+.link {
+    background-color: #FFFFFF;
+    color: blue;
+}
+
+.link:hover span {
+    border-bottom: 1px solid blue;
 }
