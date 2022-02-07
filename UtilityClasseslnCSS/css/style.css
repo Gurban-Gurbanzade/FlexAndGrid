@@ -1,0 +1,17 @@
+.primary {
+    color: white;
+    background-color: #5E2572;
+}
+
+.primary:hover {
+    background-color: #451458;
+}
+
+.secondary {
+    color: black;
+    background-color: #D9DBDC;
+}
+
+.secondary:hover {
+    background-color: #9da1a3;
+}
