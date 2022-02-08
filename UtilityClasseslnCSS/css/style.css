@@ -160,3 +160,84 @@
     background-color: #4F4A60;
     color: white;
 }
+
+/* inverse */
+.inverse .primary {
+    background-color: #DFD3E3;
+    color: #5E2572;
+}
+
+.inverse .primary:hover {
+    color: white;
+    background-color: #5E2572;
+}
+
+.inverse .secondary {
+    background-color: #F8F8F8;
+    color: #D9DBDC;
+}
+
+.inverse .secondary:hover {
+    background-color: #D9DBDC;
+    color: white;
+}
+
+.inverse .succes {
+    background-color: #CCF4E7;
+    color: #00C689;
+}
+
+.inverse .succes:hover {
+    background-color: #00C689;
+    color: white;
+}
+
+.inverse .danger {
+    background-color: #FFE3D9;
+    color: #FC7242;
+}
+
+.inverse .danger:hover {
+    background-color: #FC7242;
+    color: #FFE3D9;
+}
+
+.inverse .warning {
+    background-color: #FFF3CC;
+    color: #FFC100;
+}
+
+.inverse .warning:hover {
+    background-color: #FFC100;
+    color: white;
+}
+
+.inverse .info {
+    background-color: #DBCFF6;
+    color: #4D13D1;
+}
+
+.inverse .info:hover {
+    background-color: #4D13D1;
+    color: white;
+}
+
+.inverse .light {
+    background-color: white;
+    color: black;
+}
+
+.inverse .light:hover {
+    background-color: #d4d5d6;
+    color: white;
+}
+
+.inverse .dark {
+    background-color: #DCDBDF;
+    color: #4F4A60;
+}
+
+.inverse .dark:hover {
+    background-color: #4F4A60;
+    color: white;
+}
