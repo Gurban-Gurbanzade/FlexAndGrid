@@ -241,3 +241,112 @@
     background-color: #4F4A60;
     color: white;
 }
+
+/* Icon Buttons Kvadrat */
+
+.icon__daire__ev {
+    background-color: var(--benovse);
+}
+
+.icon__daire__ev:hover {
+    background-color: var(--benovsea);
+}
+
+.icon__daire__internet {
+    background-color: var(--boz);
+}
+
+.icon__daire__internet:hover {
+    background-color: var(--boza);
+}
+
+.icon__daire__mail {
+    background-color: var(--kok);
+}
+
+.icon__daire__mail:hover {
+    background-color: var(--koka);
+}
+
+.icon__daire__ulduz {
+    background-color: var(--goy);
+}
+
+.icon__daire__ulduz:hover {
+    background-color: var(--goya);
+}
+
+.icon__daire__mekan {
+    background-color: var(--yasil);
+}
+
+.icon__daire__mekan:hover {
+    background-color: var(--yasila);
+}
+
+/* Icon button kvadrat */
+.icon__kvadrat {
+    margin-top: 20px;
+
+}
+
+.icon__kvadrat__ev {
+
+    background-color: var(--benovsea);
+}
+
+
+.icon__kvadrat__ev:hover {
+    background-color: var(--benovse);
+    color: white;
+
+}
+
+/* button groups */
+.qrup {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.qrup div {
+    border: 1px solid var(--boz);
+    color: var(--boz);
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.qrup__1:hover {
+    background-color: var(--boz);
+    color: black;
+}
+
+.qrup__2:hover {
+    background-color: var(--boz);
+    color: black;
+}
+
+.qrup__3:hover {
+    background-color: var(--boz);
+    color: black;
+}
+
+.textandicon {
+    border-radius: 5px;
+    width: 60px;
+    height: 50;
+    padding: 10px;
+    background-color: var(--goy);
+    color: white;
+    text-align: center;
+}
+
+.textandicon:hover {
+    border: 1px solid var(--goy);
+    border-radius: 5px;
+    width: 60px;
+    height: 50;
+    padding: 10px;
+    background-color: var(--ag);
+    color: var(--goy);
+    text-align: center;
+}
