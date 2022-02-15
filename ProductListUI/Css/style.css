@@ -6,7 +6,6 @@
 .product {
     height: 550px;
     display: flex;
-
 }
 
 .product-item1 {
@@ -21,20 +20,50 @@
     padding: 10px;
     color: black;
     position: absolute;
+    z-index: 3;
     right: 15px;
     top: 15px;
     border-radius: 50%;
     background-color: white;
 }
 
-.product-item1 img {
+.product-item1-copy {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0%;
+}
+
+.product-item1-eye {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0%;
+}
+
+.product-item1-img1 {
     width: 300px;
     height: 400px;
 }
 
-.product-item1-star {
-    color: red;
+.product-item1-img2 {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    opacity: 0%;
 }
+
+
 
 .product-item1-price {
     font-weight: 900;
@@ -45,4 +74,64 @@
     border-radius: 0%;
     border: 0px solid black;
     padding: 10px;
+    opacity: 0%;
+}
+
+/* Hover olduqda baş verən klaslar */
+.product-item1:hover .product-item1-img2 {
+    opacity: 100%;
+}
+
+.product-item1:hover .product-item1-copy {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 100%;
+}
+
+.product-item1:hover .product-item1-eye {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 100%;
+}
+
+.product-item1:hover .product-item1-button {
+    background-color: red;
+    border-radius: 0%;
+    border: 0px solid black;
+    padding: 10px;
+    opacity: 100%;
+}
+
+.product-item1:hover .product-item1-heart:hover {
+    background-color: red;
+}
+
+.product-item1:hover .product-item1-copy:hover {
+    background-color: red;
+}
+
+.product-item1:hover .product-item1-eye:hover {
+    background-color: red;
+}
+
+.product-item1-name:hover {
+    color: red;
+
+}
+
+.product-item1:hover .product-item1-button:hover {
+    background-color: black;
+    color: white;
 }
