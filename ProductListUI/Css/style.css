@@ -10,9 +10,21 @@
 }
 
 .product-item1 {
+    position: relative;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.product-item1-heart {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .product-item1 img {
