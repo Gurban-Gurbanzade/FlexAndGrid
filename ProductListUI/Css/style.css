@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    height: 550px;
+    display: flex;
+
+}
+
+.product-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-item1 img {
+    width: 300px;
+    height: 400px;
+}
+
+.product-item1-star {
+    color: red;
+}
+
+.product-item1-price {
+    font-weight: 900;
+}
+
+.product-item1-button {
+    background-color: red;
+    border-radius: 0%;
+    border: 0px solid black;
+    padding: 10px;
+}
