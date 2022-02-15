@@ -1,7 +1,140 @@
-.flex {
+.product-itemsize {
+    position: relative;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item-imgsize {
+    width: 300px;
+    height: 400px;
+}
+
+.product-item-img2size {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    opacity: 0%;
+}
+
+.product-item-heart {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.product-item-copy {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0%;
+}
+
+.product-item-eye {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0%;
+}
+
+.product-item-price {
+    font-weight: 900;
+}
+
+.product-item-button {
+    background-color: red;
+    border-radius: 0%;
+    border: 0px solid black;
+    padding: 10px;
+    opacity: 0%;
 }
 
 .bckred {
+    color: red !important;
+}
+
+.product-item-star {
+    color: gray;
+}
+
+/* hover */
+
+
+.product-itemsize:hover .product-item-img2size {
+    opacity: 100%;
+}
+
+.product-item-name:hover {
     color: red;
+}
+
+.product-itemsize:hover .product-item-button {
+    background-color: red;
+    border-radius: 0%;
+    border: 0px solid black;
+    padding: 10px;
+    opacity: 100%;
+}
+
+.product-itemsize:hover .product-item-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.product-itemsize:hover .product-item-copy {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 100%;
+}
+
+.product-itemsize:hover .product-item-eye {
+    padding: 10px;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 100%;
+}
+
+.product-itemsize:hover .product-item-heart:hover {
+    background-color: red;
+}
+
+.product-itemsize:hover .product-item-copy:hover {
+    background-color: red;
+}
+
+.product-itemsize:hover .product-item-eye:hover {
+    background-color: red;
+}
+
+.product-itemsize:hover {
+    /* border: 0.1px solid gray; */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }

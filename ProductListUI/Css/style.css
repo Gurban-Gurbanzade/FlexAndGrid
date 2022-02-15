@@ -6,9 +6,41 @@
 .product {
     height: 550px;
     display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+
+    align-content: center;
 }
 
-.product-item1 {
+.sale {
+    color: gray;
+}
+
+
+.percent {
+    position: absolute;
+    right: 15px;
+    bottom: 150px;
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .product-item1 {
     position: relative;
     padding: 10px;
     display: flex;
@@ -65,9 +97,6 @@
 
 
 
-.product-item1-price {
-    font-weight: 900;
-}
 
 .product-item1-button {
     background-color: red;
@@ -75,10 +104,10 @@
     border: 0px solid black;
     padding: 10px;
     opacity: 0%;
-}
+} */
 
 /* Hover olduqda baş verən klaslar */
-.product-item1:hover .product-item1-img2 {
+/* .product-item1:hover .product-item1-img2 {
     opacity: 100%;
 }
 
@@ -126,12 +155,9 @@
     background-color: red;
 }
 
-.product-item1-name:hover {
-    color: red;
 
-}
 
 .product-item1:hover .product-item1-button:hover {
     background-color: black;
     color: white;
-}
+} */
