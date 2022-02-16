@@ -5,10 +5,10 @@ Hazırki dövr internet əsri olduğundan əlbəttə ki, veb proqramlaşdırma d
 
 Sual02: Aşağıdakı proqramlaşdırma terminlərinin qısa acıqlamasını yazın
 
-compilers
-interpreters
-translators
-assemblers
+compilers:https://www.britannica.com/technology/compiler?partnerCode=BK_PJ_AF_USD&utm_source=pj-affiliate&utm_medium=affiliate&utm_campaign=pepperjam&utm_term=96525&click_id=3874358269
+interpreters: https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/interpreter/
+translators https://ecomputernotes.com/compiler-design/translators-and-its-type https://en.wikipedia.org/wiki/Translator_(computing) https://www.computerhope.com/jargon/t/translator.htm
+assemblers  https://techterms.com/definition/assembler
 programming paradigms
 debugging
 boolean
