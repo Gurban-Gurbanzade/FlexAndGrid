@@ -32,9 +32,13 @@ high-level language: Kompüter proqramları yazan proqramçılar adətən yuxar�
 markup language:  Səhifənin ümumi görünüşünü və içindəki məlumatı formatlamağa kömək edən asan başa düşülən açar sözlər, adlar və ya etiketlərdən ibarət kompüter dili.
 
 Sual03: Veb səhifəsinin işləmə prinsipini anlayabilmək üçün aşağıdakı mövhumları araşdıraraq yazın
-İnternet ve intranet arasındakı fərqlər nədir?
-Server-side və client-side ifadələrinin mənası nədir?
-Server nədir və necə işləyir?
-Domain nədir və necə işləyir?
+
+İnternet ve intranet arasındakı fərqlər nədir? - Çoxumuz İnternet və İntranet şərtləri arasında qarışıq qalırıq. Aralarında çox bərabərsizlik olsa da, fərqlərdən biri də İnternetin hamı üçün açıq olması və hər kəs tərəfindən əldə edilə bilməsi, İntranet isə bir təşkilat özəl olaraq sahib olduğu üçün doğrulanmış giriş tələb edir.
+
+Server-side və client-side ifadələrinin mənası nədir? BackEnd və FrontEnd. Serverdə işləyən proqramlara verilən ümumi ad. Brauzerdə Vebdə işləyən proqramlara verilən ümumi ad.
+
+Server nədir və necə işləyir? Server, şəbəkə üzərindən edilən sorğuları qəbul edən və onlara cavab verən proqram və ya aparat qurğusudur.
+
+Domain nədir və necə işləyir? Domain və ya domain adı istifadəçilərin sayta müraciət etdikləri zaman daxil edəcəkləri resursun ünvanına deyilir. Domain veb saytların internetdəki adı və adresidir. Bu adres olmadan internet istifadəçiləri veb saytlara girə bilməzlər. Domen İP adresi adlanan kompüterlərin birbirini tanıması üçün istifadə olunan nömrələmə sisteminin bəsitləşidirilmiş və kəlimələr ilə ifadə edilən formasıdır. Veb saytları ziyarət etmək istəyənlərin ip adresləri bilmələri çətin olacağı üçün domen alaraq sayt daha asan yadda qalan bir hala gətirilir.
 HTTP nədir və nəyə lazımdır
 URL və URI ifadələri arasındakı fərqləri izah edin.
