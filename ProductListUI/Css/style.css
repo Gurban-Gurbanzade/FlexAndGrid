@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition-duration: 0.6s;
 }
 
 .product {
@@ -8,14 +9,12 @@
     display: flex;
     padding-top: 50px;
     padding-left: 100px;
-
     align-content: center;
 }
 
 .sale {
     color: gray;
 }
-
 
 .percent {
     position: absolute;
