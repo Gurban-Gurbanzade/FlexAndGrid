@@ -5,19 +5,32 @@ Hazırki dövr internet əsri olduğundan əlbəttə ki, veb proqramlaşdırma d
 
 Sual02: Aşağıdakı proqramlaşdırma terminlərinin qısa acıqlamasını yazın
 
-compilers:https://www.britannica.com/technology/compiler?partnerCode=BK_PJ_AF_USD&utm_source=pj-affiliate&utm_medium=affiliate&utm_campaign=pepperjam&utm_term=96525&click_id=3874358269
-interpreters: https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/interpreter/
-translators https://ecomputernotes.com/compiler-design/translators-and-its-type https://en.wikipedia.org/wiki/Translator_(computing) https://www.computerhope.com/jargon/t/translator.htm
-assemblers  https://techterms.com/definition/assembler
-programming paradigms
-debugging
-boolean
-char
-null
-command-line interface
-low-level language
-high-level language
-markup language
+.compilers: Hər hansı bir dildə yazılmış kodu kompüterin başa düşəcəyi bir dilə çevirən proqramdır.
+
+interpreters: Hər hansı bir dildə yazılmış kodu sətirlər üzrə kompüterin başa düşəcəyi bir dilə çevirən proqramdır.
+
+translators: Yeksək səviyyəli bir kodu başqa dildə yüksək səviyyəli bir koda çevirən proqram. 
+
+assemblers: assambler dilində yazılmış kodu maşın dilinə tərcümə edir.
+
+programming paradigms: Programın və ya kodun yazılma tərzidir.
+
+debugging: Komputer kodunda səhv tapmaqvə düzəltmək üçün olan bir proses
+
+boolean: Dəyişən tipidir. Yalnız 2 qiymət alır. Doğu yalnış
+
+char: Dəyişən tipidir. Yaddaşda 2 byte(16 bit) yer tutur. Özündə yalnız 1 simvol saxlayır.
+
+null: Əgər hansısa dəyişənin dəyəri təyin edilməyəcəksə onu null olaraq təyin edə bilərik.Və həmin dəyər riyazi hesablamada iştirak etdikdə null üstü örtülü olaraq number –ə           çevrilərək dəyər alacaq.
+
+command-line interface: Bu, istifadəçilərə müəyyən tapşırıqları yerinə yetirmək üçün kompüterlərə mətn əmrləri daxil etməyə imkan verən proqramdır.
+
+low-level language: Aşağı səviyyə dilləri isə daha çox kompüterin dili olan maşın (binary) dilinə yaxın olan dillərdir. Maşın insanla müqayisədə aşağı səviyyəli dilləri asanlıqla başa düşür.
+
+high-level language: Kompüter proqramları yazan proqramçılar adətən yuxarı səviyyəli dillərdən istifadə edirlər. Belə dillər strukturuna və sintaksisinə görə insan dilinə yaxın olur.
+
+markup language:  Səhifənin ümumi görünüşünü və içindəki məlumatı formatlamağa kömək edən asan başa düşülən açar sözlər, adlar və ya etiketlərdən ibarət kompüter dili.
+
 Sual03: Veb səhifəsinin işləmə prinsipini anlayabilmək üçün aşağıdakı mövhumları araşdıraraq yazın
 İnternet ve intranet arasındakı fərqlər nədir?
 Server-side və client-side ifadələrinin mənası nədir?
