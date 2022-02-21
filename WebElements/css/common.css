@@ -1,6 +1,7 @@
 :root {
     --orange: #FFA500;
     --white: #ffffff;
+    --grey: rgb(78, 78, 78);
 }
 
 .txt-center {
@@ -16,6 +17,9 @@
     align-items: center;
     justify-content: space-araund;
     text-align: center;
+    transition-duration: 1s;
+
+
 }
 
 .icon-style {
@@ -30,5 +34,32 @@
     color: var(--white);
     padding: 15px 35px;
     background-color: var(--orange);
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.txt-grey {
+    color: var(--grey);
+}
+
+.demo-btn-style:hover>.demo-btn2-style {
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.demo-btn-style:hover>.icon-style {
+    color: var(--white);
+    border: 3px solid var(--white);
+
+}
+
+.demo-btn-style:hover {
+    background-color: var(--orange);
+    transform: scaleX(0);
+    transform-origin: left;
+
+}
+
+.demo-btn-style:hover>.txt-grey,
+.txt {
+    color: var(--white);
 }
