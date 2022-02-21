@@ -2,3 +2,33 @@
     --orange: #FFA500;
     --white: #ffffff;
 }
+
+.txt-center {
+    text-align: center;
+}
+
+.demo-btn-style {
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-araund;
+    text-align: center;
+}
+
+.icon-style {
+    color: var(--orange);
+    border: 3px solid var(--orange);
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.demo-btn2-style {
+    text-decoration: none;
+    color: var(--white);
+    padding: 15px 35px;
+    background-color: var(--orange);
+    margin-top: 10px;
+}
