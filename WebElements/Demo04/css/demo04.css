@@ -1,0 +1,78 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu .menu-item {
+  width: 350px;
+  height: 200px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: inset 0 0 0 0 #E12573;
+          box-shadow: inset 0 0 0 0 #E12573;
+}
+
+.menu .menu-item .menu-item-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu .menu-item .menu-item-up span {
+  color: gray;
+}
+
+.menu .menu-item .menu-item-up .menu-item-up-icon {
+  margin-right: 30px;
+  color: #E12573;
+}
+
+.menu .menu-item .menu-item-btn {
+  margin-right: 200px;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  background-color: #E12573;
+}
+
+.menu-item:hover {
+  -webkit-box-shadow: inset -380px 0 0 0 #E12573;
+          box-shadow: inset -380px 0 0 0 #E12573;
+}
+
+.menu-item:hover .menu-item-up h1 {
+  color: white;
+}
+
+.menu-item:hover .menu-item-up span {
+  color: white;
+}
+
+.menu-item:hover .menu-item-up .menu-item-up-icon {
+  color: white;
+}
+
+.menu-item:hover .menu-item-btn {
+  background-color: #fd3e8e;
+}
