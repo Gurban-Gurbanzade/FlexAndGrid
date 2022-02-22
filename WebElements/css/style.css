@@ -2,14 +2,11 @@
     background-color: var(--orange);
     color: var(--white);
     font-size: large;
+    padding: 10px;
 }
 
 .demo-btn {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-}
-
-.ab {
-    text-align: center;
 }
