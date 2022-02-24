@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo {
+  background-color: #d8d8d8;
+  height: 1500px;
+}
+
+.demo .demo-head {
+  background-color: #FF4343;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo .demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo .demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+}
+
+.demo .demo-menu {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0px 180px;
+}
+
+.demo .demo-menu-item {
+  background-color: #ffffff;
+  width: 280px;
+  height: 300px;
+  margin-right: 0 10px 0 10px;
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo .demo-menu-item .demo-menu-item-icon {
+  color: #FF4343;
+  border: 1px solid #4e4e4e;
+  border-radius: 50%;
+  padding: 30px;
+  -webkit-box-shadow: 5px 5px 4px 0.3px #4e4e4e;
+          box-shadow: 5px 5px 4px 0.3px #4e4e4e;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.demo .demo-menu-item h1 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 30px;
+  background-color: #d8d8d8;
+  -webkit-box-shadow: inset 0 0 0 0 #FF4343;
+          box-shadow: inset 0 0 0 0 #FF4343;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  width: 99%;
+  padding: 10px 0px;
+}
+
+.demo .demo-menu-item p {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 13px;
+  color: #4e4e4e;
+  margin: 0px 3px;
+}
+
+.demo .demo-menu-item .demo-menu-item-btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 35px;
+  background-color: #FF4343;
+  border-radius: 50px;
+}
+
+.demo-menu-item:hover .demo-menu-item-icon {
+  -webkit-box-shadow: -5px 5px 4px 0.3px #4e4e4e;
+          box-shadow: -5px 5px 4px 0.3px #4e4e4e;
+}
+
+.demo-menu-item:hover h1 {
+  color: #ffffff;
+  -webkit-box-shadow: inset -280px 0 0 0 #FF4343;
+          box-shadow: inset -280px 0 0 0 #FF4343;
+}
+
+.demo-menu-item:hover .demo-menu-item-btn:hover {
+  background-color: #a50000;
+}

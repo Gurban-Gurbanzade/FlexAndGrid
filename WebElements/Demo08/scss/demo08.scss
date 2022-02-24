@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// color
+$mainColor:#FF4343;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$seconColor:#d8d8d8;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+
+.demo{
+background-color: $seconColor;
+height: 1500px;
+    .demo-head {
+        background-color: $mainColor;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+    }
+    .demo-menu{
+        margin-top: $size5x;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px 180px;
+    }
+        .demo-menu-item {
+            background-color: $white;
+            width: 280px;
+            height: 300px;
+            margin-right: 0 10px 0 10px;
+            padding: $size2x 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;                
+            text-align: $centerTxt;
+            font-family: $droidTxt;
+            .demo-menu-item-icon{
+                color: $mainColor;
+                border: 1px solid $grey;
+                border-radius: 50%;
+                padding: $size3x;
+                box-shadow: 5px 5px 4px 0.3px $grey;
+                transition-duration: 0.5s;
+            }
+            h1{
+                font-family: $droidTxt;
+                font-size: $size3x;
+                background-color: $seconColor;
+                box-shadow: inset 0 0 0 0 $mainColor;
+                transition-duration: 0.5s;
+                width: 99%;
+                padding: 10px 0px;
+            }
+            p{
+                font-family: $droidTxt;
+                font-size: 13px;
+                color: $grey;
+                margin: 0px 3px;
+            }         
+            .demo-menu-item-btn {
+                text-decoration: none;
+                color: $white;
+                padding: 15px 35px;
+                background-color: $mainColor;
+                border-radius: 50px;
+           }
+            
+        }
+                  
+    }
+
+.demo-menu-item:hover {  
+    .demo-menu-item-icon {
+        box-shadow: -5px 5px 4px 0.3px $grey;
+    }
+    h1{
+        color:$white;
+        box-shadow: inset -280px 0 0 0 $mainColor;
+    }
+    .demo-menu-item-btn:hover {
+        background-color: rgb(165, 0, 0);
+    }
+}
+
+
+
+
+
+
+
