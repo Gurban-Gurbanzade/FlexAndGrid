@@ -1,0 +1,66 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu-item {
+  border: 1px solid black;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F4FFB9;
+  text-align: center;
+  width: 200px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu-item .menu-item-ibox {
+  background-color: white;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  width: auto;
+}
+
+.menu-item .menu-item-ibox-icon {
+  color: #C0DF19;
+}
+
+.menu-item .menu-item-btn {
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  background-color: #C0DF19;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.menu-item:hover {
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.menu-item:hover .menu-item-btn {
+  background-color: #7f9210;
+}
