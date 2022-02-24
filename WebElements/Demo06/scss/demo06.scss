@@ -1,65 +1,95 @@
+// color
+$mainColor:#19D3CA;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$lightBlack:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size4x: 40px;
+$size5x: 50px;
+
+    .demo-head {
+        background-color: $mainColor;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $lightBlack;
+    }
 .menu{
+    margin-top: 100px;
     display: flex;
-    flex-direction: row;
-}
+    font-family: $droidTxt;
+    justify-content: space-evenly;
+    }
 .menu-item {
-    margin-top: 60px;
-    border: 1px solid black;
-    padding: 20px;
+    border-top: 1px solid $mainColor;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    background-color:#F4FFB9 ;
+    justify-content: space-around;
+    background-color:$white ;
     text-align: center;
-    width: 200px;
+    width: 300px;
+    height: 380px;
     position: relative;
-    
     .menu-item-no{
         position: absolute;
-        top: -15px;
-        right: 10px;
-        font-size: 2rem;
+        top: -50px;
+        right: 8px;
+        font-size: 5rem;
         z-index: -1;
         transition: 1s;
+        font-weight: bold;
+        color: rgba(151, 151, 151, 0.877);
     }
-   
        .menu-item-ibox-icon {
-        background-color: green;
-        display: block;
-        text-align: center;
-        padding: 30px;
-        width:auto;
-               color:  #C0DF19;
-               transition: 1s;
-                         }
-        
-    
-
+        background-color: $mainColor;
+        padding: $size4x;
+        color:  $white;
+        transition-duration: 1s;
+        border-radius: 10px;
+    }
+        span{
+            font-size: 14px;
+        }
     .menu-item-btn {
         text-decoration: none;
         color: white;
         padding: 15px 35px;
-        background-color: #C0DF19;
+        background-color: $mainColor;
         margin-top: 30px;
         border-radius: 50px;
     }
 }
-
 .menu-item:hover{ 
     .menu-item-ibox-icon {
         transform:rotateY(180deg);
      }
      .menu-item-no{
-        top: -35px;
+        top: -85px;
      }
-  
-.menu-item-btn{
-       
-    
-    
-        background-color: #7f9210;
-
-
-}
+} 
+.menu-item-btn:hover{   
+    background-color: #0a8a83;
 } 
