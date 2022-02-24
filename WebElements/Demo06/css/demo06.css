@@ -1,0 +1,75 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu-item {
+  margin-top: 60px;
+  border: 1px solid black;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F4FFB9;
+  text-align: center;
+  width: 200px;
+  position: relative;
+}
+
+.menu-item .menu-item-no {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  font-size: 2rem;
+  z-index: -1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu-item .menu-item-ibox-icon {
+  background-color: green;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  width: auto;
+  color: #C0DF19;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu-item .menu-item-btn {
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  background-color: #C0DF19;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.menu-item:hover .menu-item-ibox-icon {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.menu-item:hover .menu-item-no {
+  top: -35px;
+}
+
+.menu-item:hover .menu-item-btn {
+  background-color: #7f9210;
+}
