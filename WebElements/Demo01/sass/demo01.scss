@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// color
+$orange:#FFA500;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$lightBlack:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+
+.demo{
+
+    .demo-head {
+        background-color: $orange;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $lightBlack;
+    }
+    .demo-menu{
+        margin-top: $size5x;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px 150px;
+    }
+        .demo-menu-item {
+            width: 250px;
+            height: 300px;
+            margin-right: 0 10px 0 10px;
+            padding: $size2x;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: inset 0 0 0 0 $orange;
+            transition-duration: 0.5s;
+            text-align: $centerTxt;
+            font-family: $droidTxt;
+            .demo-menu-item-icon{
+                color: $orange;
+                border: 3px solid $orange;
+                border-radius: 50%;
+                padding: $size3x;
+            }
+            h1{
+                font-family: $droidTxt;
+                font-size: $size3x;
+            }
+            p{
+                font-family: $droidTxt;
+                font-size: 13px;
+                color: $lightBlack;
+            }         
+            .demo-menu-item-btn {
+                text-decoration: none;
+                color: $white;
+                padding: 15px 35px;
+                background-color: $orange;
+           }
+            
+        }
+                  
+    }
+
+.demo-menu-item:hover {
+    box-shadow: inset 0 -390px 0 0 $orange;
+
+    .demo-menu-item-icon {
+        color: $white;
+        border: 3px solid $white;    
+    }
+    h1,p{
+        color:$white;
+    }
+    .demo-menu-item-btn {
+        color: $orange;
+        background-color: $white;
+    }
+}
+
+
+
+
+
+

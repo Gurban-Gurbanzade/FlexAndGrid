@@ -63,8 +63,8 @@
 }
 
 .menu-item:hover {
-  -webkit-box-shadow: inset -200px -200px 0 0 #E12573;
-          box-shadow: inset -200px -200px 0 0 #E12573;
+  -webkit-box-shadow: inset -200px -5000px 0 0 #E12573;
+          box-shadow: inset -200px -5000px 0 0 #E12573;
 }
 
 .menu-item:hover .menu-item-up-icon {
