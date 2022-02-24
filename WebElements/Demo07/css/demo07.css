@@ -1,13 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-head {
+  background-color: #2E4B9B;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #333;
+}
+
 .menu {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0px 100px;
+  font-family: "Droid Sans", sans-serif;
 }
 
 .menu-item {
-  border: 1px solid black;
   padding-top: 20px;
   width: 300px;
   height: 300px;
@@ -22,6 +54,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
+  padding: 20px 10px;
 }
 
 .menu-item .menu-item-icon {
@@ -29,9 +62,13 @@
   color: #8AA9FF;
   z-index: -1;
   right: 15px;
-  top: 10px;
+  top: 5px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+}
+
+.menu-item span {
+  color: #4e4e4e;
 }
 
 .menu-item .menu-item-btn {
@@ -44,8 +81,8 @@
 }
 
 .menu-item:hover .menu-item-icon {
-  -webkit-transition: 0.8s ease-in-out;
-  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
   -webkit-transform: translateX(-130px);
           transform: translateX(-130px);
 }

@@ -1,10 +1,52 @@
-.menu{
-    display: flex;
-    justify-content: space-around;
+*{
+    margin: 0;
+    padding: 0;
 }
+// color
+$mainColor:#2E4B9B;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$lightBlack:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
 
+    .demo-head {
+        background-color: $mainColor;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $lightBlack;
+    }
+     .menu{
+        margin-top: $size5x;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px 100px;
+        font-family: $droidTxt;
+    }
 .menu-item{
-    border: 1px solid black;
     padding-top: 20px;
     width: 300px;
     height: 300px;
@@ -13,18 +55,19 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    padding: $size2x $sizex;
     
-
     .menu-item-icon{
         position: absolute;
         color:#8AA9FF;
         z-index: -1;
         right: 15px;
-        top: 10px;     
+        top: 5px;     
         transition: 0.4s ease-in-out;
     }
-    
-         
+    span{
+        color: $grey;
+    }
     .menu-item-btn{
         margin: 0 80px;
         text-decoration: none;
@@ -35,15 +78,12 @@
     }
 }
 
-.menu-item:hover 
-{ 
-
+.menu-item:hover {
     .menu-item-icon{
-       transition: 0.8s ease-in-out;
+    transition: 0.4s ease-in-out;
     transform: translateX(-130px);
 }
-.menu-item-btn:hover{
-  
+.menu-item-btn:hover{  
     background-color:#5571bd;
 }
 }
