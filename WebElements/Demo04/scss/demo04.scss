@@ -1,6 +1,44 @@
+// color
+$orange:#FFA500;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$lightBlack:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+.demo-head {
+    background-color: #E12573;
+    color: $white;
+    font-size: large;
+    padding: 10px;
+    font-family: $droidTxt;
+    font-weight: 700;
+    text-align: $centerTxt;
+}
+.demo-text-head{
+    margin-top:$size5x;
+    text-align: $centerTxt;
+    font-family: $droidTxt;
+}
+.demo-text-info{
+    margin-top: $sizex;
+    text-align: $centerTxt;
+    font-family: $droidTxt;
+    font-size: $sizex;
+    color: $lightBlack;
+}
 .menu{
     display: flex;
     justify-content: space-around;
+    margin-top: $size5x;
+    font-family: $droidTxt;
         .menu-item{
         width: 350px;
         height: 200px;
@@ -48,6 +86,6 @@
         }
     }
     .menu-item-btn{
-               background-color: #fd3e8e;
+               background-color: #fa0068;
     }
 }
