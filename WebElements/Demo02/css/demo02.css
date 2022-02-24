@@ -1,13 +1,45 @@
+.demo {
+  background-color: #5B5BAE;
+  height: 1500px;
+}
+
+.demo-head {
+  background-color: #5656A6;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .menu .menu-item {
   width: 250px;
   height: 350px;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
