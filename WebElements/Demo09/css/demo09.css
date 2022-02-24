@@ -1,0 +1,68 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu-item {
+  margin-top: 200px;
+  margin-left: 10px;
+  border: 1px solid black;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-araund;
+      -ms-flex-pack: space-araund;
+          justify-content: space-araund;
+  background-color: #F4FFB9;
+  text-align: center;
+}
+
+.menu-item .menu-item-icon {
+  margin-top: -80px;
+  color: #C0DF19;
+  border-radius: 50%;
+  padding: 35px;
+  background-color: white;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-item .menu-item-btn {
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  background-color: #C0DF19;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.menu-item:hover .menu-item-icon {
+  background-color: #C0DF19;
+  color: white;
+}
+
+.menu-item:hover .menu-item-btn {
+  text-decoration: none;
+  color: white;
+  padding: 15px 35px;
+  background-color: #C0DF19;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.menu-item:hover .menu-item-btn:hover {
+  background-color: #7f9210;
+}
