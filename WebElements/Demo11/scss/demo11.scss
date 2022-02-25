@@ -1,26 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// color
+$orange:#FFA500;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$lightBlack:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+
+    .demo-head {
+        background-color: #EE12A0;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $lightBlack;
+    }
 .menu{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    font-family: $droidTxt;
 }
 .menu-item {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 10px;
     border: 1px solid #EE12A0;
-    padding: 90px 20px 90px 20px;
+    padding: 170px 20px 90px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-araund;
     background-color:white ;
     text-align: center;
     border-radius: 50%;
+    transition-duration: 0.5s;
        .menu-item-icon {
-        margin-top: -150px;
+        margin-top: -250px;
         color: white;
         border-radius: 50%;
         padding: 35px;
         background-color:#EE12A0;
         transition: all 0.5s ease-in-out;   
+    }
+    h1{
+        margin-top: 40px; 
+    }
+    span{
+        margin-top: 30px;
+        color: $grey;
     }
     .menu-item-btn {
         text-decoration: none;
@@ -34,6 +84,10 @@
 
 .menu-item:hover{
     background-color: #EE12A0;
+    color: $white;
+    span{
+        color: $white;
+    }
     .menu-item-icon {
                 background-color: white;
                 color:#EE12A0;
