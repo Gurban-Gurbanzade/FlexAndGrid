@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-head {
+  background-color: #ffd900;
+  color: black;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #333;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Droid Sans", sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+
+.menu .bck2 {
+  background-image: url(../image/web.jpg) !important;
+  background-size: cover;
+}
+
+.menu .bck3 {
+  background-image: url(../image/video.jpg) !important;
+  background-size: cover;
+}
+
+.menu .menu-item {
+  background-image: url(../image/photo.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.menu .menu-item .h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.menu .menu-item .menu-item-bck {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(44, 19, 49, 0.342);
+  position: absolute;
+  top: 260px;
+  width: 350px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.menu .menu-item .menu-item-bck h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.menu .menu-item .menu-item-bck p {
+  margin-bottom: 20px;
+}
+
+.menu .menu-item .menu-item-bck .menu-item-btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 35px;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.menu-item:hover .h1 {
+  opacity: 0;
+}
+
+.menu-item:hover .menu-item-bck {
+  top: 0px;
+  opacity: 100;
+}
