@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-head {
+  background-color: #816EE7;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #4e4e4e;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,11 +35,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Droid Sans", sans-serif;
+  margin-top: 50px;
+  color: white;
 }
 
 .menu-item {
-  border: 1px solid black;
-  padding: 20px;
+  padding: 20px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,9 +58,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #F4FFB9;
+  background-color: #816EE7;
   text-align: center;
-  width: 200px;
+  width: 290px;
   border-bottom-right-radius: 35px;
   border-top-left-radius: 35px;
   -webkit-transition: 0.5s;
@@ -34,22 +68,26 @@
 }
 
 .menu-item .menu-item-ibox {
-  background-color: white;
-  display: block;
+  background-color: #ffffff;
   text-align: center;
   padding: 30px;
-  width: auto;
+  width: 78%;
+  margin: 10px 0px;
 }
 
 .menu-item .menu-item-ibox-icon {
-  color: #C0DF19;
+  color: #533DCD;
+}
+
+.menu-item span {
+  font-size: 13px;
 }
 
 .menu-item .menu-item-btn {
   text-decoration: none;
   color: white;
   padding: 15px 35px;
-  background-color: #C0DF19;
+  background-color: #533DCD;
   margin-top: 30px;
   border-radius: 50px;
 }
@@ -61,6 +99,6 @@
   border-top-left-radius: 0px;
 }
 
-.menu-item:hover .menu-item-btn {
-  background-color: #7f9210;
+.menu-item-btn:hover {
+  background-color: #221470;
 }

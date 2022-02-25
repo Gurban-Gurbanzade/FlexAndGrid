@@ -1,58 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// color
+$mainColor:#816EE7;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$secondColor:#533DCD;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+
+    .demo-head {
+        background-color: $mainColor;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $grey;
+    }
 .menu{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    font-family: $droidTxt;
+    margin-top: $size5x;
+    color: white;
 }
 .menu-item {
-    border: 1px solid black;
-    padding: 20px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color:#F4FFB9 ;
+    background-color: $mainColor ;
     text-align: center;
-    width: 200px;
+    width: 290px;
     border-bottom-right-radius:35px ;
     border-top-left-radius:35px ;
     transition: 0.5s;
-    .menu-item-ibox{
-        background-color: white;
-        display: block;
+    .menu-item-ibox{ 
+        background-color: $white;  
         text-align: center;
         padding: 30px;
-        width:auto;
+        width: 78%;
+        margin: $sizex 0px;
      }
-       .menu-item-ibox-icon {
-              
-               color:  #C0DF19;
-                         }
-        
-    
-
+       .menu-item-ibox-icon {              
+        color: $secondColor;
+        }
+        span{
+            font-size: 13px;
+        }
     .menu-item-btn {
         text-decoration: none;
         color: white;
         padding: 15px 35px;
-        background-color: #C0DF19;
+        background-color: $secondColor;
         margin-top: 30px;
         border-radius: 50px;
     }
 }
 
-.menu-item:hover{ 
-   
-    border-bottom-left-radius:35px ;
-    
+.menu-item:hover{    
+    border-bottom-left-radius:35px ;    
     border-top-right-radius:35px;
     border-bottom-right-radius:0px;
     border-top-left-radius:0px ;
-
-.menu-item-btn{
-       
-    
-    
-        background-color: #7f9210;
-
-
-}
 } 
+.menu-item-btn:hover{   
+    background-color: #221470;
+}
