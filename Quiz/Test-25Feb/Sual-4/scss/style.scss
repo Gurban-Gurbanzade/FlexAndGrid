@@ -1,0 +1,24 @@
+@mixin size1{
+width: 40px;
+height: 40px;
+background-color: blue;
+}
+@mixin size2{
+    width: 80px;
+    height: 80px;
+    }
+    @mixin size3{
+        width: 120px;
+        height: 120px;
+        }
+
+        
+    .qutu1{
+    @include size1;
+}
+.qutu2{
+    @include size2;
+}
+.qutu3{
+    @include size3;
+}
