@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-head {
+  background-color: #C0DF19;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #333;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,12 +35,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .menu-item {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 10px;
-  border: 1px solid black;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,11 +54,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-araund;
-      -ms-flex-pack: space-araund;
-          justify-content: space-araund;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #F4FFB9;
   text-align: center;
+  height: 250px;
+  font-family: "Droid Sans", sans-serif;
 }
 
 .menu-item .menu-item-icon {
@@ -47,6 +80,10 @@
   background-color: #C0DF19;
   margin-top: 30px;
   border-radius: 50px;
+}
+
+.menu-item span {
+  color: #4e4e4e;
 }
 
 .menu-item:hover .menu-item-icon {
