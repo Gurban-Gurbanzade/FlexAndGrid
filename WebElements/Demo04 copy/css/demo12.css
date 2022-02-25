@@ -1,17 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-head {
+  background-color: #1CE6AE;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.demo-text-head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.demo-text-info {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 10px;
+  color: #4e4e4e;
+}
+
 .menu {
-  margin: 60px 60px;
+  margin-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  font-family: "Droid Sans", sans-serif;
 }
 
 .menu .menu-item {
-  border: 1px solid black;
-  width: 350px;
-  height: 400px;
-  padding: 15px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,69 +46,66 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  text-align: center;
-  -webkit-box-shadow: inset 0 0 0 0 #E12573;
-          box-shadow: inset 0 0 0 0 #E12573;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 250px;
+  -webkit-box-shadow: inset 0 0 0 0 #1CE6AE;
+          box-shadow: inset 0 0 0 0 #1CE6AE;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .menu .menu-item-up-icon {
-  margin: 20px 90px;
-  color: red;
-  border: 1px solid gray;
+  background-color: #1CE6AE;
+  padding: 35px;
+  position: absolute;
+  left: -38px;
+  top: -38px;
+  color: #ffffff;
+  border: 6px solid gray;
   border-radius: 50%;
-  -webkit-box-shadow: 3px 3px gray;
-          box-shadow: 3px 3px gray;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
 }
 
 .menu h1 {
-  background-color: gray;
-  -webkit-box-shadow: inset 0 0 0 0 #E12573;
-          box-shadow: inset 0 0 0 0 #E12573;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  font-size: 35px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
 }
 
-.menu span {
+.menu p {
   color: gray;
+  margin-bottom: 30px;
 }
 
-.menu span .menu-item-btn {
-  margin-right: 200px;
-  margin-top: 20px;
+.menu .menu-item-btn {
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 30px;
   border-radius: 30px;
   text-align: center;
   color: white;
-  background-color: #E12573;
+  background-color: #1CE6AE;
+  margin-bottom: 40px;
 }
 
 .menu-item:hover {
-  -webkit-box-shadow: inset -200px -5000px 0 0 #E12573;
-          box-shadow: inset -200px -5000px 0 0 #E12573;
-}
-
-.menu-item:hover .menu-item-up-icon {
-  -webkit-box-shadow: -3px 3px gray;
-          box-shadow: -3px 3px gray;
+  -webkit-box-shadow: inset 400px 245px 0 0 #1CE6AE;
+          box-shadow: inset 400px 245px 0 0 #1CE6AE;
 }
 
 .menu-item:hover h1 {
   color: white;
-  -webkit-box-shadow: inset -380px 0 0 0 #E12573;
-          box-shadow: inset -380px 0 0 0 #E12573;
 }
 
-.menu-item:hover h1 .menu-item-up-icon {
-  color: red;
+.menu-item:hover p {
+  color: #ffffff;
 }
 
-.menu-item:hover h1 .menu-item-btn {
-  background-color: #fd3e8e;
+.menu-item:hover .menu-item-btn {
+  background-color: #12a37a;
 }

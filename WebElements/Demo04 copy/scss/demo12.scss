@@ -1,63 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// color
+$mainColor:#1CE6AE;
+$white: #ffffff;
+$grey: rgb(78, 78, 78);
+$balck: black;
+$secondColor:#333;
+// font-text
+$droidTxt: 'Droid Sans',sans-serif;
+$muliTxt: 'Muli' ,sans-serif;
+$centerTxt: center;
+// size
+$sizex: 10px;
+$size2x: 20px;
+$size3x: 30px;
+$size5x: 50px;
+
+    .demo-head {
+        background-color: $mainColor;
+        color: $white;
+        font-size: large;
+        padding: 10px;
+        font-family: $droidTxt;
+        font-weight: 700;
+        text-align: $centerTxt;
+    }
+    .demo-text-head{
+        margin-top:$size5x;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+    }
+    .demo-text-info{
+        margin-top: $sizex;
+        text-align: $centerTxt;
+        font-family: $droidTxt;
+        font-size: $sizex;
+        color: $grey;
+    }
 .menu{
-    margin: 60px 60px;
+    margin-top: 110px;
     display: flex;
     justify-content: space-around;
+    font-family: $droidTxt;
         .menu-item{
-            border: 1px solid black;
-        width: 350px;
-        height: 400px;
-        padding: 15px;
+        position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        text-align: center;           
-        box-shadow:inset 0 0 0 0 #E12573;
-            transition: 0.4s;
+        justify-content: flex-end;
+        align-items: center;
+        width: 400px;
+        height: 250px; 
+        box-shadow:inset 0 0 0 0 $mainColor;
+        transition-duration: 0.5s; 
             }
             .menu-item-up-icon{
-                margin:20px 90px;              
-                color: red;
-                border: 1px solid gray;
-                border-radius: 50%;       
-                box-shadow: 3px 3px gray;    
-                transition: 0.4s;    
+                background-color: $mainColor;
+                padding: 35px;
+                position: absolute;       
+                left: -38px;
+                top: -38px;    
+                color: $white;
+                border: 6px solid gray;
+                border-radius: 50%;      
+                //clip: rect(0px, 0px, 0px ,0px );           
             }
         h1{
-          background-color:gray;
-            box-shadow:inset 0 0 0 0 #E12573;
-            transition: 0.4s;
+            font-size: 35px;
+            position: absolute;
+            right: 10px;
+            top: 20px;
         }
-            span{
-                color: gray;
+            p{
+             color: gray;                  
+             margin-bottom: 30px;    
+            }
         .menu-item-btn{
-            margin-right: 200px;
-            margin-top: 20px;
             text-decoration: none;
-            padding: 15px ;        
+            padding: 15px 30px ;        
             border-radius: 30px;
             text-align: center;
             color: white;
-            background-color: #E12573;
-        }
+            background-color: $mainColor;    
+            margin-bottom: 40px;    
     }
 }
 .menu-item:hover{
-    box-shadow: inset -200px -5000px 0 0 #E12573;
-  
-    .menu-item-up-icon{
-       
-        box-shadow: -3px 3px gray;        
-    }
+       box-shadow: inset 400px 245px 0 0 $mainColor;
         h1{
-            color: white;
-            box-shadow:inset -380px 0 0 0 #E12573;
-            
-        .menu-item-up-icon{
-                        color: red;               
+            color: white;   
         }
-    
+        p{
+            color: $white;
+        }             
     .menu-item-btn{
-               background-color: #fd3e8e;
-    }
+        background-color: #12a37a;
 }
 }
