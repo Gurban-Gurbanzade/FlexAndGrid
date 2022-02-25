@@ -1,0 +1,45 @@
+$maincolor:#343a40;
+$secondcolor:white;
+
+$sizex:5px;
+$size2x:10px;
+$size3x:15px;
+$size4x:20px;
+$size5x:25px;
+
+@mixin border{
+    border:1px solid red;
+}
+@mixin displayCenter{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar_brand_logo{
+   // @include border;
+@include displayCenter;
+}
+
+.navbar_brand_nav{
+    // @include border;
+ @include displayCenter;
+    ul{
+        @include displayCenter;
+        li{
+            margin: 0px $size2x;
+        }
+    }
+ }
+
+ .navbar_brand_user{
+     //@include border;
+     @include displayCenter;
+     button{
+         background-color: $maincolor;
+         color: $secondcolor;
+         padding: $size2x $size4x;
+         margin: 0 $sizex;
+         border-radius: $size4x;
+     }
+ }
