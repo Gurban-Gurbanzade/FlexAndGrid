@@ -1,0 +1,38 @@
+.stat-container {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stat-item {
+  width: calc($percent/4-10px);
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+
+.stat-item div {
+  border: 1px solid #00427a;
+  width: 85px;
+  height: 85px;
+  border-radius: calc($percent/2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  font-size: 31px;
+  font-weight: 700;
+  color: #00427a;
+}

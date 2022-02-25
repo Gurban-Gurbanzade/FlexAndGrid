@@ -1,0 +1,44 @@
+$maincolor:#00427a;
+$secondColor:red;
+$sizex:0px;
+$sizex85x:85px;
+$size20x:20px;
+$size30x:30px;
+
+$percent:100%;
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-container{
+//border: 1px solid rgb(54,4,4);
+width: 1140px;
+margin: $sizex auto;
+padding: $size30x $sizex;
+display: flex;
+justify-content: space-between;
+//background-color: gray;
+}
+.stat-item{
+    //border: 1px solid rgb(21,46,160);
+    width:calc($percent/4-10px);
+    padding: $size20x $size20x $sizex $size20x;
+    text-align: center;
+
+    div{
+        //background: $secondColor;
+        border: 1px solid $maincolor;
+        width: $sizex85x;
+        height: $sizex85x;
+        border-radius: calc($percent/2);
+        @include flexCenter;
+        margin: $sizex auto;
+        margin-bottom: $size20x;
+        font-size: 31px;
+        font-weight: 700;
+        color: $maincolor;
+    }
+}
