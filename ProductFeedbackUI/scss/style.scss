@@ -1,7 +1,7 @@
-*{
-    margin-top: 20px;
-    padding: 0;
-}
+@import 'general/reset';
+@import 'general/colors';
+@import 'common/components';
+
 section{
     width: 1440px;
     border: 1px black solid;
@@ -15,9 +15,9 @@ section{
             display: flex;
             flex-direction: column;
             .feedback-item-type{
-            width: 255px;
-            height: 137px;
-            border: 1px black solid;
+            @include infoHead;
+            background: $gradient;
+            background: ;
             }
             .feedback-item-design{
             width: 255px;

@@ -61,3 +61,18 @@ border-radius: 10px;
     color: $white;
     border-radius: 10px;
     }
+@mixin back-btn{
+    width: 158px;
+    height: 53px;
+    background-color: $darkgray;
+    color: $white;
+    border-radius: 10px;
+}
+
+@mixin back-btn-bover{
+    width: 158px;
+    height: 53px;
+    background-color: $darkgray;
+    color: $white;
+    border-radius: 10px;
+}
