@@ -1,0 +1,27 @@
+$size:10px;
+$Size1:20px;
+$Size2:24px;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: $size;
+}
+
+@mixin column {
+display:flex;
+flex-direction: column;
+    }
+@mixin row {
+display:flex;
+flex-direction: row;
+
+    }
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+    }
+@mixin marginLeftx {
+    margin-left: 165px;
+    }

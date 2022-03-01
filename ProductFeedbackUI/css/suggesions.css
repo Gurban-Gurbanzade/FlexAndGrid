@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.page {
+  width: 1440px;
+  padding: 94px 165px;
+  background-color: #F7F8FD;
+}
+
+.page .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .feedback .feedback-item .feedback-item-type {
+  width: 255px;
+  height: 137px;
+  border: 1px solid black;
+  padding: 24px;
+  color: white;
+  margin-bottom: 24px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  padding-top: 62px;
+}
+
+.page .feedback .feedback-item .feedback-item-design {
+  width: 255px;
+  height: 166px;
+  border: 1px solid black;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.page .feedback .feedback-item .feedback-item-design a {
+  display: inline-block;
+  padding: 5px 16px;
+  border: 1px solid black;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  margin-bottom: 10px;
+}
+
+.page .feedback .feedback-item .feedback-item-info {
+  width: 255px;
+  height: 178px;
+  border: 1px solid black;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.page .feedback .feedback-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .feedback .feedback-element .feedback-element-head {
+  width: 825px;
+  height: 72px;
+  border: 1px solid black;
+  background-color: #373F68;
+  color: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page .feedback .feedback-element .feedback-element-head i {
+  margin-right: 10px;
+}
+
+.page .feedback .feedback-element .feedback-element-head h1 {
+  margin-right: 38px;
+}
+
+.page .feedback .feedback-element .feedback-element-head a {
+  width: 194px;
+  height: 72px;
+  background-color: #373F68;
+  color: white;
+  padding: 26px 17.5px;
+  background-color: red;
+}
+
+.page .feedback .feedback-element .feedback-element-head button {
+  width: 158px;
+  height: 44px;
+  background-color: #AA1FE6;
+  color: white;
+  position: absolute;
+  right: 16px;
+}
+
+.page .feedback .feedback-element .feedback-element-item {
+  width: 825px;
+  height: 151px;
+  border: 1px solid black;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page .feedback .feedback-element .feedback-element-item .btn-number {
+  width: 40px;
+  height: 53px;
+  background-color: #F2F4FF;
+  color: #373F68;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a {
+  display: inline-block;
+  padding: 5px 16px;
+  border: 1px solid black;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.page .feedback .feedback-element .feedback-element-item i {
+  color: white;
+}

@@ -1,0 +1,73 @@
+@import "buttons";
+@import "colors";
+@import "commons";
+@import "components";
+@import "forms";
+@import "general";
+@import "interactive";
+@import "typography";
+@import "variables";
+.page{
+    @include sizePage;
+.feedback{
+    @include between;
+        .feedback-item{
+            @include   column;
+                .feedback-item-type{
+                    @include sizeType;
+                }
+                .feedback-item-design{
+                    @include sizeDesign;
+                    a{
+                        @include intDesign;
+                    }
+                }
+                .feedback-item-info{
+                    @include sizeInfo;
+                }
+            }
+        .feedback-element{
+            @include column;
+            .feedback-element-head{
+                @include sizeHead;
+                @include row;
+                i{
+                    margin-right: 10px;
+                }
+                h1{
+                    margin-right: 38px;
+                }
+                a{
+                    @include intSort;
+                    background-color: red;
+                }
+                button{
+                    @include btnStyle1;
+                    position:absolute;
+                    right: 16px;
+                }
+            }
+            .feedback-element-item{
+                @include sizeItem;
+                @include row;
+                .btn-number{
+                    @include intNumber;
+                }
+                .feedback-element-item-text{
+                   // @include column;
+                    
+                    a{
+                    @include intDesign;  
+                    display: flex;  
+                    justify-content: flex-start;
+                    box-sizing: border-box !important;
+                    }
+                }
+                i{
+                    color: white;
+                }
+            }
+            }    
+        
+    }
+}
