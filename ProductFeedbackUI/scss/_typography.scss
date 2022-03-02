@@ -1,0 +1,55 @@
+@mixin jostH1 {
+    font-family:'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.33px;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+}
+@mixin jostH2{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.25px;
+}
+@mixin jostH3{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+}
+@mixin jostH4{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1944px;
+}
+@mixin jostBody1{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+@mixin jostBody2{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+@mixin jostBody3{
+    font-family:'jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}

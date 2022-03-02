@@ -15,15 +15,46 @@
             @include   column;
                 .feedback-item-type{
                     @include sizeType;
+                    .feedback-item-type-head{
+                        @include jostH2;
+                    }
+                    .feedback-item-type-text{
+                        @include jostBody2;
+                    }
                 }
                 .feedback-item-design{
                     @include sizeDesign;
                     a{
                         @include intDesign;
+                        @include jostBody3;
                     }
                 }
                 .feedback-item-info{
                     @include sizeInfo;
+                    @include column;
+                    .feedback-item-info-head{
+                        @include between;
+                        >h3{@include jostH3}
+                        >p{@include jostBody3}
+                        }
+                    .feedback-item-info-item{
+                        @include between;
+                        //@include jostBody1;
+                        >ul{list-style: none;}
+                        >ul li::before{
+                            //@include jostBody1;
+                            content:"\2022";
+                            color:red;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 1em;
+                            //margin-left: 1em;
+                            
+                    }
+                        >p{@include jostBody1;
+                            font-weight:bold;}
+                    }
+                    
                 }
             }
         .feedback-element{
@@ -31,15 +62,16 @@
             .feedback-element-head{
                 @include sizeHead;
                 @include row;
+                align-items: center;
                 i{
-                    margin-right: 10px;
+                    margin-right: 20px;
                 }
                 h1{
                     margin-right: 38px;
+                   @include jostH3;
                 }
                 a{
                     @include intSort;
-                    background-color: red;
                 }
                 button{
                     @include btnStyle1;
@@ -48,23 +80,37 @@
                 }
             }
             .feedback-element-item{
+                position: relative;
                 @include sizeItem;
                 @include row;
                 .btn-number{
                     @include intNumber;
+                    @include jostBody3;
+                    
                 }
                 .feedback-element-item-text{
-                   // @include column;
-                    
+                    >h1{
+                        @include jostH3;
+                    } 
+                    >p{
+                        @include jostBody1;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;                
                     a{
-                    @include intDesign;  
-                    display: flex;  
-                    justify-content: flex-start;
-                    box-sizing: border-box !important;
+                    @include intDesign;
+                    margin-bottom: 0px !important;  
+                    
                     }
                 }
                 i{
-                    color: white;
+                    //@include jostBody1;
+                    color:red;
+                    background-color: black;
+                    position: absolute;
+                    right: 32px;
+                    top:64px;
                 }
             }
             }    

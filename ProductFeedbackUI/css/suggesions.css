@@ -42,6 +42,23 @@
   padding-top: 62px;
 }
 
+.page .feedback .feedback-item .feedback-item-type .feedback-item-type-head {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.25px;
+}
+
+.page .feedback .feedback-item .feedback-item-type .feedback-item-type-text {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
 .page .feedback .feedback-item .feedback-item-design {
   width: 255px;
   height: 166px;
@@ -58,6 +75,11 @@
   text-decoration: none;
   color: #4661E6;
   margin-bottom: 10px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
 }
 
 .page .feedback .feedback-item .feedback-item-info {
@@ -66,6 +88,69 @@
   border: 1px solid black;
   padding: 24px;
   margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head > h3 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head > p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item > ul {
+  list-style: none;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item > ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item > p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
 }
 
 .page .feedback .feedback-element {
@@ -94,14 +179,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page .feedback .feedback-element .feedback-element-head i {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .page .feedback .feedback-element .feedback-element-head h1 {
   margin-right: 38px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
 }
 
 .page .feedback .feedback-element .feedback-element-head a {
@@ -110,7 +204,6 @@
   background-color: #373F68;
   color: white;
   padding: 26px 17.5px;
-  background-color: red;
 }
 
 .page .feedback .feedback-element .feedback-element-head button {
@@ -123,6 +216,7 @@
 }
 
 .page .feedback .feedback-element .feedback-element-item {
+  position: relative;
   width: 825px;
   height: 151px;
   border: 1px solid black;
@@ -142,6 +236,43 @@
   height: 53px;
   background-color: #F2F4FF;
   color: #373F68;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text > h1 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text > p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a {
@@ -152,16 +283,13 @@
   text-decoration: none;
   color: #4661E6;
   margin-bottom: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-sizing: border-box !important;
-          box-sizing: border-box !important;
+  margin-bottom: 0px !important;
 }
 
 .page .feedback .feedback-element .feedback-element-item i {
-  color: white;
+  color: red;
+  background-color: black;
+  position: absolute;
+  right: 32px;
+  top: 64px;
 }
