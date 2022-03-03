@@ -258,13 +258,48 @@
         width: 1110 px;
         height: 113px;
         background-color: $headBR;
+        padding: 35px;
+        display: flex;
+        justify-content: space-between;
+
+        .page-roadmap-head-element{
+        >button{
+        @include btnBack;
+        color: $white;
+    
+        }
+  >h1{
+        @include jostH1;
+        color: $white;
     }
+
+
+
+
+
+
+    }
+   >button{
+            @include btnStyle1;
+        }
+
+
+
+
+
+  
+        }
+        
+    
     .page-roadmap-menu{
         display: flex;
         justify-content: space-between;
         h3{
                 @include jostH3;
                 color: $hColor;
+                &:hover{
+                    color: $designColor
+                }
              }
 
         p{
@@ -288,11 +323,12 @@
         .page-roadmap-menu-item{
         display: flex;
         flex-direction: column;
+        
         .page-roadmap-menu-item-head{
 h3{
 @include jostH3;
 color: $hColor;
-margin-bottom: 48px;
+margin-top: 48px;
 }
 p{
 @include jostBody1;
@@ -311,6 +347,7 @@ color: $pColor;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+       
         .feedback-item-info-item-planned{
             @include jostBody1;
             color: $pColor;
@@ -320,7 +357,14 @@ color: $pColor;
                  margin-right: 16px;
                 color: #f49f85;
                 }
+                .circlePurple{
+                color: $purple !important;
+                }
+               
             }
+             .circleBlue{
+                color: $bluelight !important;
+                }
          
            
                 
@@ -333,7 +377,7 @@ color: $pColor;
                     
                     position: absolute;
                     right:32px;
-                    bottom: 40px;
+                    bottom: 47px;
                     >.p1{
                         color:$hColor !important;
                         font-weight: bold !important;
@@ -350,6 +394,12 @@ color: $pColor;
 
 
 
+        }
+         .borderPurple{
+            border-top: 5px solid $purple !important;
+        }
+        .borderBlue{
+            border-top: 5px solid $bluelight !important;
         }
         }
    

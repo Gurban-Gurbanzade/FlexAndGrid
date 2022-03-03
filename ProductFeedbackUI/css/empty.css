@@ -9,7 +9,7 @@
 .page {
   width: 1440px;
   padding: 94px 165px;
-  background-color: grey;
+  background-color: #f2f2f2;
 }
 
 .page .feedback {
@@ -482,7 +482,7 @@
 
 .page-feedback {
   width: 1440px;
-  background-color: grey;
+  background-color: #f2f2f2;
   padding: 92px 450px;
 }
 
@@ -497,6 +497,10 @@
   border: none;
   color: #647196;
   margin-bottom: 68px;
+}
+
+.page-feedback > button:hover {
+  text-decoration: underline;
 }
 
 .feedback-example {
@@ -569,7 +573,7 @@
 
 .page-roadmap {
   width: 1440px;
-  background-color: grey;
+  background-color: #f2f2f2;
   padding: 78px 165px;
 }
 
@@ -577,6 +581,60 @@
   width: 1110 px;
   height: 113px;
   background-color: #373F68;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > button {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+  background: none;
+  border: none;
+  color: #647196;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
+  text-decoration: underline;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.33px;
+  mix-blend-mode: normal;
+  opacity: 0.96;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-head > button {
+  width: 158px;
+  height: 44px;
+  background-color: #AA1FE6;
+  color: white;
+  border-width: 0px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+}
+
+.page-roadmap .page-roadmap-head > button:hover {
+  background-color: #c75af6;
 }
 
 .page-roadmap .page-roadmap-menu {
@@ -596,6 +654,10 @@
   line-height: 26px;
   letter-spacing: -0.25px;
   color: #3A4374;
+}
+
+.page-roadmap .page-roadmap-menu h3:hover {
+  color: #4661e6;
 }
 
 .page-roadmap .page-roadmap-menu p {
@@ -654,7 +716,7 @@
   line-height: 26px;
   letter-spacing: -0.25px;
   color: #3A4374;
-  margin-bottom: 48px;
+  margin-top: 48px;
 }
 
 .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head p {
@@ -709,6 +771,14 @@
   color: #f49f85;
 }
 
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned .circlePurple {
+  color: #AA1FE6 !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .circleBlue {
+  color: #62bcfa !important;
+}
+
 .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment {
   font-family: 'jost';
   font-style: normal;
@@ -726,7 +796,7 @@
           justify-content: space-between;
   position: absolute;
   right: 32px;
-  bottom: 40px;
+  bottom: 47px;
 }
 
 .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > .p1 {
@@ -737,4 +807,12 @@
 .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > i {
   margin-right: 10px;
   color: #cdd2ee;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderPurple {
+  border-top: 5px solid #AA1FE6 !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
+  border-top: 5px solid #62bcfa !important;
 }
