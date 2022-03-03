@@ -27,6 +27,13 @@
                     a{
                         @include intDesign;
                         @include jostBody3;
+                        &:hover{
+                            background-color: $designBrHover;
+                        }
+                          &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
                     }
                 }
                 .feedback-item-info{
@@ -35,8 +42,10 @@
                     justify-content: space-between;
                     .feedback-item-info-head{
                         @include between;
-                        >h3{@include jostH3}
-                        >p{@include jostBody3}
+                        >h3{@include jostH3;
+                        color:$hColor;}
+                        >a{@include jostBody3;
+                        color:$designColor;}
                         }
                     .feedback-item-info-item{
                         @include between;
@@ -70,9 +79,7 @@
                             font-weight: bold;
                             color:#647196;
                             }
-                         
-                    }
-                    
+                    }                  
                 }
             }
         .feedback-element{
@@ -90,39 +97,55 @@
                 }
                 a{
                     @include intSort;
+                    color: $numBR;
+                    @include jostH4;
                 }
                 button{
                     @include btnStyle1;
                     position:absolute;
                     right: 16px;
+                     &:hover{
+                        background-color: $purpleHover;
+                    }
                 }
             }
             .feedback-element-item{
+                background-color: $white;
                 position: relative;
                 @include sizeItem;
                 @include row;
                 .btn-number{
                     @include intNumber;
                     @include jostBody3;
-                    
+                    margin-right: 40px;
+                    &:hover{
+                        background-color: $designBrHover;
+                    }
+                     &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
                 }
                 .feedback-element-item-text{
                     display:flex;
                     flex-direction: column;
                     justify-content: space-between; 
+                    align-items: flex-start;
                  
 
                     >h1{
                         @include jostH3;
+                        color: $hColor;
                     } 
                     >p{
                         @include jostBody1;
+                        color: $pColor;
                     }
                                 
                     a{
                     @include intDesign;
-                    display: inline-block !important;
                     margin-bottom: 0px !important;  
+                    
                     
                     }
                 }
@@ -132,14 +155,20 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    color:$gray;
+                    color:$hColor;
                     position: absolute;
                     right: 32px;
                     top:64px;
                     >i{
                         margin-right: 10px;
-                        color: #cdd2ee;
+                        color: $commentColor;
                     }
+                }
+                &:hover{
+                    h1{
+                        color:$designColor;
+                    }
+
                 }
             }
             }    

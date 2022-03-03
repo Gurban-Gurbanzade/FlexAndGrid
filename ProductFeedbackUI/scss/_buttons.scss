@@ -1,91 +1,9 @@
+@import"typography";
 @mixin btnStyle1{
 width: 158px;
 height: 44px;
 background-color: $purple;
 color: $white;
+border-width: 0px;
+@include jostH4;
 }
-
-
-
-
-
-
-
-// @mixin purple-btn{
-// width: 158px;
-// height: 44px;
-// background-color: $purple;
-// color: $white;
-// border-radius: 10px;
-// }
-
-// @mixin purple-btn-hover{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $lightpurple;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-
-// @mixin blue-btn{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $blue;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-
-// @mixin blue-btn-hover{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $lightblue;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-
-// @mixin gray-btn{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $lightgray;
-//     color: $white;
-//     border-radius: 10px;
-//     }
- 
-// @mixin gray-btn-hover{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $gray;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-
-// @mixin red-btn{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $red;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-
-// @mixin red-btn-hover{
-//     width: 158px;
-//     height: 44px;
-//     background-color: $lightred;
-//     color: $white;
-//     border-radius: 10px;
-//     }
-// @mixin back-btn{
-//     width: 158px;
-//     height: 53px;
-//     background-color: $darkgray;
-//     color: $white;
-//     border-radius: 10px;
-// }
-
-// @mixin back-btn-bover{
-//     width: 158px;
-//     height: 53px;
-//     background-color: $darkgray;
-//     color: $white;
-//     border-radius: 10px;
-// }
