@@ -50,3 +50,10 @@ background-color: $white;
     padding: 111px 209px;
     text-align: center;    
     }
+@mixin sizeFeedback{
+    width: 540px;
+    height: 657px;
+    background-color: $white;
+    padding: 40px 42px;
+    text-align: center;    
+    }
