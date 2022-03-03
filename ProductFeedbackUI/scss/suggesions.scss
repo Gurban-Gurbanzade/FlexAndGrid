@@ -32,6 +32,7 @@
                 .feedback-item-info{
                     @include sizeInfo;
                     @include column;
+                    justify-content: space-between;
                     .feedback-item-info-head{
                         @include between;
                         >h3{@include jostH3}
@@ -39,20 +40,37 @@
                         }
                     .feedback-item-info-item{
                         @include between;
-                        //@include jostBody1;
-                        >ul{list-style: none;}
-                        >ul li::before{
-                            //@include jostBody1;
-                            content:"\2022";
-                            color:red;
-                            font-weight: bold;
-                            display: inline-block;
-                            width: 1em;
-                            //margin-left: 1em;
-                            
-                    }
+                        @include jostBody1;
+                        
+                       .feedback-item-info-item-planned{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: #f49f85;
+                           }
+                       }
+                       .feedback-item-info-item-progress{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: $purple;
+                           }
+                       }
+                         .feedback-item-info-item-live{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: #62bcfa;
+                           }
+                       }
                         >p{@include jostBody1;
-                            font-weight:bold;}
+                            font-weight: bold;
+                            color:#647196;
+                            }
+                         
                     }
                     
                 }
@@ -89,28 +107,39 @@
                     
                 }
                 .feedback-element-item-text{
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-between; 
+                 
+
                     >h1{
                         @include jostH3;
                     } 
                     >p{
                         @include jostBody1;
                     }
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;                
+                                
                     a{
                     @include intDesign;
+                    display: inline-block !important;
                     margin-bottom: 0px !important;  
                     
                     }
                 }
-                i{
-                    //@include jostBody1;
-                    color:red;
-                    background-color: black;
+                .feedback-element-item-text-comment{
+                    @include jostBody1;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color:$gray;
                     position: absolute;
                     right: 32px;
                     top:64px;
+                    >i{
+                        margin-right: 10px;
+                        color: #cdd2ee;
+                    }
                 }
             }
             }    
