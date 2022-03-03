@@ -41,5 +41,12 @@ background-color: $white;
     height: 151px;
     padding: 28px 32px;
     margin-bottom: $Size1;
+    background-color: $white;
     }
-    
+@mixin sizeEmpty{
+    width: 825px;
+    height: 600px;
+    background-color: $white;
+    padding: 111px 209px;
+    text-align: center;    
+    }

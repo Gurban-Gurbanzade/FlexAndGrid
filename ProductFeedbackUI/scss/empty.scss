@@ -1,0 +1,194 @@
+@import "buttons";
+@import "colors";
+@import "commons";
+@import "components";
+@import "forms";
+@import "general";
+@import "interactive";
+@import "typography";
+@import "variables";
+.page{
+    @include sizePage;
+.feedback{
+    @include between;
+        .feedback-item{
+            @include   column;
+                .feedback-item-type{
+                    @include sizeType;
+                    .feedback-item-type-head{
+                        @include jostH2;
+                    }
+                    .feedback-item-type-text{
+                        @include jostBody2;
+                    }
+                }
+                .feedback-item-design{
+                    @include sizeDesign;
+                    a{
+                        @include intDesign;
+                        @include jostBody3;
+                        &:hover{
+                            background-color: $designBrHover;
+                        }
+                          &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
+                    }
+                }
+                .feedback-item-info{
+                    @include sizeInfo;
+                    @include column;
+                    justify-content: space-between;
+                    .feedback-item-info-head{
+                        @include between;
+                        >h3{@include jostH3;
+                        color:$hColor;}
+                        >a{@include jostBody3;
+                        color:$designColor;}
+                        }
+                    .feedback-item-info-item{
+                        @include between;
+                        @include jostBody1;
+                        
+                       .feedback-item-info-item-planned{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: #f49f85;
+                           }
+                       }
+                       .feedback-item-info-item-progress{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: $purple;
+                           }
+                       }
+                         .feedback-item-info-item-live{
+                           @include between;
+                           align-items: center;
+                           >i{
+                               margin-right: 16px;
+                               color: #62bcfa;
+                           }
+                       }
+                        >p{@include jostBody1;
+                            font-weight: bold;
+                            color:#647196;
+                            }
+                    }                  
+                }
+            }
+        .feedback-element{
+            @include column;
+            .feedback-element-head{
+                @include sizeHead;
+                @include row;
+                align-items: center;
+                i{
+                    margin-right: 20px;
+                }
+                h1{
+                    margin-right: 38px;
+                   @include jostH3;
+                }
+                a{
+                    @include intSort;
+                    color: $numBR;
+                    @include jostH4;
+                }
+                button{
+                    @include btnStyle1;
+                    position:absolute;
+                    right: 16px;
+                }
+            }
+            .feedback-element-item{
+                background-color: $white;
+                position: relative;
+                @include sizeItem;
+                @include row;
+                .btn-number{
+                    @include intNumber;
+                    @include jostBody3;
+                    margin-right: 40px;
+                    &:hover{
+                        background-color: $designBrHover;
+                    }
+                     &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
+                }
+                .feedback-element-item-text{
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-between; 
+                    align-items: flex-start;
+                 
+
+                    >h1{
+                        @include jostH3;
+                        color: $hColor;
+                    } 
+                    >p{
+                        @include jostBody1;
+                        color: $pColor;
+                    }
+                                
+                    a{
+                    @include intDesign;
+                    margin-bottom: 0px !important;  
+                                        
+                    }
+                }
+                .feedback-element-item-text-comment{
+                    @include jostBody1;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color:$hColor;
+                    position: absolute;
+                    right: 32px;
+                    top:64px;
+                    >i{
+                        margin-right: 10px;
+                        color: $commentColor;
+                    }
+                }
+                &:hover{
+                    h1{
+                        color:$designColor;
+                    }
+
+                }
+            }
+            }    
+        
+    }
+}
+//////////////////////////////////////////////////
+// empty css 
+.feedback-element-empty{
+    @include sizeEmpty;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    >h1{
+        @include jostH1;
+        color: $hColor;
+    }
+    >p{
+        @include jostBody1;
+        color: $pColor;
+    }
+    >button{
+        @include btnStyle1;
+    }
+}
+//////////////////////////////////////////////////

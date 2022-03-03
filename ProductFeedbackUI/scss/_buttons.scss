@@ -6,4 +6,7 @@ background-color: $purple;
 color: $white;
 border-width: 0px;
 @include jostH4;
+&:hover{
+    background-color: $purpleHover;
+}
 }
