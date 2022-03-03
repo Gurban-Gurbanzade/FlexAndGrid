@@ -94,6 +94,15 @@
   color: white;
 }
 
+.page .feedback .feedback-item .feedback-item-design a:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-item .feedback-item-design a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
 .page .feedback .feedback-item .feedback-item-info {
   width: 255px;
   height: 178px;
@@ -340,6 +349,15 @@
   color: white;
 }
 
+.page .feedback .feedback-element .feedback-element-item .btn-number:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-element .feedback-element-item .btn-number:active {
+  background-color: #4661e6;
+  color: white;
+}
+
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -388,6 +406,15 @@
   font-size: 13px;
   line-height: 19px;
   margin-bottom: 0px !important;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:active {
+  background-color: #4661e6;
+  color: white;
 }
 
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text-comment {
@@ -687,6 +714,15 @@
   font-size: 13px;
   line-height: 19px;
   padding: 11px;
+}
+
+.page-roadmap .page-roadmap-menu a:hover {
+  background-color: #cfd7ff;
+}
+
+.page-roadmap .page-roadmap-menu a:active {
+  background-color: #4661e6;
+  color: white;
 }
 
 .page-roadmap .page-roadmap-menu a:hover {

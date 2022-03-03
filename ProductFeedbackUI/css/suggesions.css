@@ -78,11 +78,6 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
-  font-family: 'jost';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 19px;
 }
 
 .page .feedback .feedback-item .feedback-item-design a:hover {
@@ -294,10 +289,6 @@
   background-color: #c75af6;
 }
 
-.page .feedback .feedback-element .feedback-element-head button:hover {
-  background-color: #c75af6;
-}
-
 .page .feedback .feedback-element .feedback-element-item {
   background-color: white;
   position: relative;
@@ -394,22 +385,31 @@
   margin-bottom: 0px !important;
 }
 
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text-comment {
   font-family: 'jost';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
-  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
   color: #3A4374;
   position: absolute;
   right: 32px;

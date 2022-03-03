@@ -7,6 +7,11 @@
 @import "interactive";
 @import "typography";
 @import "variables";
+////////////////////////////////////////////////////
+//
+//      Suggestion page və bütün əlaqələndirilmiş funksiylar aşağıda yerləşdirilib
+//
+////////////////////////////////////////////////////
 .page{
     @include sizePage;
 .feedback{
@@ -26,58 +31,49 @@
                     @include sizeDesign;
                     a{
                         @include intDesign;
-                        @include jostBody3;
-                        &:hover{
-                            background-color: $designBrHover;
-                        }
-                          &:active{
-                            background-color: $designColor;
-                            color: $white;
-                        }
                     }
                 }
                 .feedback-item-info{
                     @include sizeInfo;
-                    @include column;
-                    justify-content: space-between;
+                    @include columnJustifyBetween;
                     .feedback-item-info-head{
                         @include between;
-                        >h3{@include jostH3;
-                        color:$hColor;}
-                        >a{@include jostBody3;
-                        color:$designColor;}
+                        >h3{
+                            @include jostH3;
+                            color:$hColor;
+                                }
+                        >a{
+                            @include jostBody3;
+                            color:$designColor;
+                                }
                         }
                     .feedback-item-info-item{
                         @include between;
                         @include jostBody1;
-                        
-                       .feedback-item-info-item-planned{
-                           @include between;
-                           align-items: center;
-                           >i{
-                               margin-right: 16px;
-                               color: #f49f85;
-                           }
-                       }
-                       .feedback-item-info-item-progress{
-                           @include between;
-                           align-items: center;
-                           >i{
-                               margin-right: 16px;
-                               color: $purple;
-                           }
-                       }
-                         .feedback-item-info-item-live{
-                           @include between;
-                           align-items: center;
-                           >i{
-                               margin-right: 16px;
-                               color: #62bcfa;
-                           }
-                       }
+                            .feedback-item-info-item-planned{
+                                @include flexJustifyBetweenAlignCenter;
+                                    >i{
+                                        margin-right: $circleRightSize;
+                                        color: $carrot;
+                                            }
+                                }
+                            .feedback-item-info-item-progress{
+                                @include flexJustifyBetweenAlignCenter;
+                                     >i{
+                                    margin-right: $circleRightSize;
+                                    color: $purple;
+                                        }
+                                }
+                            .feedback-item-info-item-live{
+                                @include flexJustifyBetweenAlignCenter;
+                                    >i{
+                                margin-right: $circleRightSize;
+                                color: $bluelight;
+                                        }
+                                }
                         >p{@include jostBody1;
                             font-weight: bold;
-                            color:#647196;
+                            color:$pColor;
                             }
                     }                  
                 }
@@ -86,10 +82,9 @@
             @include column;
             .feedback-element-head{
                 @include sizeHead;
-                @include row;
-                align-items: center;
+                @include rowAlignCenter;
                 i{
-                    margin-right: 20px;
+                    margin-right: $Size1;
                 }
                 h1{
                     margin-right: 38px;
@@ -104,35 +99,20 @@
                     @include btnStyle1;
                     position:absolute;
                     right: 16px;
-                     &:hover{
-                        background-color: $purpleHover;
-                    }
-                }
+                        }
             }
             .feedback-element-item{
                 background-color: $white;
                 position: relative;
                 @include sizeItem;
                 @include row;
-                .btn-number{
-                    @include intNumber;
-                    @include jostBody3;
-                    margin-right: 40px;
-                    &:hover{
-                        background-color: $designBrHover;
-                    }
-                     &:active{
-                            background-color: $designColor;
-                            color: $white;
-                        }
-                }
+                     .btn-number{
+                         @include intNumber;
+                         @include jostBody3;
+                         margin-right: 40px;
+                          }
                 .feedback-element-item-text{
-                    display:flex;
-                    flex-direction: column;
-                    justify-content: space-between; 
-                    align-items: flex-start;
-                 
-
+                    @include columnJustifyBetweenAlignStart;
                     >h1{
                         @include jostH3;
                         color: $hColor;
@@ -140,27 +120,22 @@
                     >p{
                         @include jostBody1;
                         color: $pColor;
-                    }
-                                
+                    }                          
                     a{
                     @include intDesign;
-                    margin-bottom: 0px !important;  
-                    
-                    
+                    margin-bottom: 0px !important;                     
                     }
                 }
                 .feedback-element-item-text-comment{
-                    @include jostBody1;
+                    @include jostBody1; 
+                    @include flexJustifyBetweenAlignCenter;
                     font-weight: bold;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
                     color:$hColor;
                     position: absolute;
                     right: 32px;
                     top:64px;
                     >i{
-                        margin-right: 10px;
+                        margin-right: $size;
                         color: $commentColor;
                     }
                 }
@@ -168,10 +143,8 @@
                     h1{
                         color:$designColor;
                     }
-
                 }
             }
-            }    
-        
+            }          
     }
 }

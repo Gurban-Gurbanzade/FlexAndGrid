@@ -7,6 +7,13 @@
     color: $blue;
     margin-bottom: 10px;
     @include jostBody3;
+    &:hover{
+        background-color: $designBrHover;
+    }
+    &:active{
+        background-color: $designColor;
+        color: $white;
+                        }
     }
 @mixin intSort {
     width: 194px;
@@ -23,6 +30,13 @@
     text-align: center;
     text-decoration: none;
     @include jostBody3;
+        &:hover{
+            background-color: $designBrHover;
+                    }
+        &:active{
+            background-color: $designColor;
+            color: $white;
+                        }
 }
 
 
