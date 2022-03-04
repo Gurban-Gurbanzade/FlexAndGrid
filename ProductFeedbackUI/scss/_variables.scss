@@ -10,10 +10,28 @@ $circleRightSize:16px;
     box-sizing: border-box;
     border-radius: $size;
 }
+@mixin column {
+display:flex;
+flex-direction: column;
+}
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+    }
+@mixin centerAlign {
+    display: flex;
+    align-items: center;
+    }
 @mixin columnJustifyBetween {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    }
+@mixin columnJustifyAroundAlignCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     }
 @mixin columnJustifyBetweenAlignStart {
     display:flex;
@@ -32,18 +50,13 @@ align-items: center;
     align-items: center;
     }
 //////////////////////////////
-@mixin column {
-display:flex;
-flex-direction: column;
-    }
+
+    
 @mixin row {
 display:flex;
 flex-direction: row;
     }
-@mixin between {
-    display: flex;
-    justify-content: space-between;
-    }
+
 @mixin marginLeftx {
     margin-left: 165px;
     }

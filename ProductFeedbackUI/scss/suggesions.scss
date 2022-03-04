@@ -148,3 +148,190 @@
             }          
     }
 }
+//////////////////////////////////////////////////
+//
+// empty css elementlər aşağıda yerləşib
+//
+//////////////////////////////////////////////////
+.feedback-element-empty{
+    @include sizeEmpty;
+    @include columnJustifyAroundAlignCenter;
+    >h1{
+        @include jostH1;
+        color: $hColor;
+    }
+    >p{
+        @include jostBody1;
+        color: $pColor;
+    }
+    >button{
+        @include btnStyle1;
+    }
+}
+///////////////////////////////////////////////////////
+//
+// roadmap css elementlər aşağıda yerləşdirilib
+//
+///////////////////////////////////////////////////////
+.page-roadmap{
+    width: 1440px;
+    background-color: $maincolor;
+    padding: 78px 165px;
+    .page-roadmap-head{
+        @include between;
+        width: 1110 px;
+        height: 113px;
+        background-color: $headBR;
+        padding: 35px;
+            .page-roadmap-head-element{
+                >button{
+                    @include btnBack;
+                    color: $white;   
+                    }
+                >h1{
+                    @include jostH1;
+                    color: $white;
+                    }
+                }
+        >button{
+            @include btnStyle1;
+            }
+        }  
+    .page-roadmap-menu{
+        @include between;
+            h3{
+                @include jostH3;
+                color: $hColor;
+                &:hover{
+                    color: $designColor
+                }
+             }
+            p{
+                @include jostBody1;
+                color:$pColor;
+                 }
+            a{
+                @include intDesign;
+                @include jostBody3;
+                padding: 11px;
+                        &:hover{
+                            background-color: $designBrHover;
+                        }
+                          &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
+               }       
+        .page-roadmap-menu-item{
+        @include column;        
+        .page-roadmap-menu-item-head{
+            h3{
+                @include jostH3;
+                color: $hColor;
+                margin-top: 48px;
+                }
+            p{
+                @include jostBody1;
+                color: $pColor;
+                }
+        }
+        .page-roadmap-menu-item-element{
+            @include columnJustifyBetweenAlignStart;
+            width: 350px;
+            height: 272px;
+            background-color: $white;
+            margin-top: 24px;
+            padding: 32px;
+            border-top: 5px solid $carrot;
+            position: relative;; 
+        .feedback-item-info-item-planned{
+            @include jostBody1;
+            @include centerAlign;
+            color: $pColor;
+                >i{
+                    margin-right: 16px;
+                    color: $carrot;
+                }
+                .circlePurple{
+                color: $purple !important;
+                }              
+            }
+             .circleBlue{
+                color: $bluelight !important;
+                }
+            .feedback-element-item-text-comment{
+                    @include jostBody1;
+                    @include flexJustifyBetweenAlignCenter;       
+                    position: absolute;
+                    right:32px;
+                    bottom: 47px;
+                    >.p1{
+                        color:$hColor !important;
+                        font-weight: bold !important;
+                    }
+                    >i{
+                        margin-right: 10px;
+                        color: $commentColor;
+                    }
+                }
+            }
+         .borderPurple{
+            border-top: 5px solid $purple !important;
+            }
+        .borderBlue{
+            border-top: 5px solid $bluelight !important;
+            }
+        }  
+    }  
+}
+//////////////////////////////////////////////////
+//
+// new feedback css
+//
+//////////////////////////////////////////////////
+.page-feedback{
+    width: 1440px;
+    background-color: $maincolor;
+    padding: 92px 450px;
+    >button{
+        @include btnBack;
+        margin-bottom: 68px;
+    }
+    }
+.feedback-example{
+    @include sizeFeedback;
+    @include column;
+    position: relative;
+    >i{
+        color: $white;
+        border-radius: 50%;
+        background:$gradient;
+        padding: 20px;
+        display: inline;
+        position: absolute;
+        top:-28px;
+        left:42px;
+    }
+    >h1{
+        @include jostH1;
+        color: $hColor;
+    }
+    h4{
+        @include jostH4;
+        color: $hColor;
+        background-color: red;
+    p{
+        @include jostBody2;
+    }
+    select{
+        width: 100%;       
+    }
+    .feedback-example{
+        input[type=text]{
+            width: 100%;
+            height: 480px;
+            background-color: black;
+        }
+}
+}
+}
