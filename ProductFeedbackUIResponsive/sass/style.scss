@@ -349,7 +349,7 @@
             >.btn-number{
                 width: 69px;
                 height: 32px;
-                height: 32px;
+                
             }
         .feedback-item-info-item-planned{
             @include jostBody1;
@@ -394,9 +394,231 @@
 }
 ///////////////////////////////////////////////////////
 //
-// responsive tablet
+// responsive mobile
 //
 ///////////////////////////////////////////////////////
-@media (max-width: 576px){
+@media (max-width: 375px){
+.page-roadmap{
+    background-color: yellow !important;
+    width: 375px;
+    background-color: $maincolor;
+    padding:0;
+    border-radius: 0;
+  
+    //padding: 78px 165px;
+    .page-roadmap-head{
+        @include between;
+        width: 375 px;
+        height: 100px;
+        border-radius: 0;
+        background-color: $headBR;
+        padding: 30px;
+            .page-roadmap-head-element{
+                >button{
+                    @include btnBack;
+                    color: $white; 
+                    font-size: 13px !important;
+                    }
+                >h1{
+                    @include jostH1;
+                    color: $white;
+                    font-size: 18px !important;
+                    }
+                }
+        >button{
+            @include btnStyle3;
+            }
+        }  
+   
+     .page-roadmap-menu{
+         @include between;
+         position: relative;
+            h3{
+                @include jostH3;
+                color: $hColor;
+                &:hover{
+                  color: $designColor
+                 }
+              }
+             p{
+                 @include jostBody1;
+                 color:$pColor;
+              }
+             a{
+                 @include intDesign;
+                @include jostBody3;
+             padding: 11px;
+                        &:hover{
+                             background-color: $designBrHover;
+                         }
+                           &:active{
+                             background-color: $designColor;
+                             color: $white;
+                         }
+                }       
+                //  .plannedMobie{
+                //     border: 1px solid #000;
+                //     margin: 0 20px;
+                //               }
+                //         .inprogressMobie  {
+                // position: absolute !important;
+                // z-index: -1;
+                // top: 0;
+                // left: 24px;
+                //         }
+                //         .liveMobie   {
+                // position: absolute !important;
+                // top: 0;
+                // left: 24px;
+                // opacity: 0;
+                //         }  
+         
+        .page-roadmap-menu-item{
+         @include column;  
+            position: absolute;
+            top: 0;
+            left: 24px;
+            opacity: 0;
+            
+           
+
+         
+         .page-roadmap-menu-item-head{
+             h3{
+                 @include jostH3;
+                 color: $hColor;
+                 margin-top: 24px;
+                 }
+             p{
+                 @include jostBody1;
+                 color: $pColor;
+                 }
+         }
+         .page-roadmap-menu-item-element{
+             @include columnJustifyBetweenAlignStart;
+             width: 327px ;
+             height: 233px;
+             background-color: $white;
+             margin-top: 16px;
+             padding: 20px;
+             border-top: 5px solid $carrot;
+             position: relative;
+             p,h3,a{
+             font-size: 13px !important;
+             }
+            
+             >.btn-number{
+                 width: 69px;
+                 height: 32px;
+                
+             }
+         .feedback-item-info-item-planned{
+             @include jostBody1;
+             @include centerAlign;
+             color: $pColor;
+             
+                 >i{
+                     margin-right: 16px;
+                     color: $carrot;
+                 }
+                 .circlePurple{
+                 color: $purple !important;
+               }              
+             }
+              .circleBlue{
+                 color: $bluelight !important;
+                 }
+             .feedback-element-item-text-comment{
+                     @include jostBody1;
+                     @include flexJustifyBetweenAlignCenter;       
+                     position: absolute;
+                     right:32px;
+                     bottom: 47px;
+                     >.p1{
+                         color:$hColor !important;
+                         font-weight: bold !important;
+                     }
+                     >i{
+                         margin-right: 10px;
+                         color: $commentColor;
+                     }
+                 }
+             }
+          .borderPurple{
+              
+             border-top: 5px solid $purple !important;
+             }
+         .borderBlue{
+             
+             border-top: 5px solid $bluelight !important;
+             }
+             
+         }  
+         
+    }  
+     .page-roadmap-mobileHead{
+        display: flex;
+        border-bottom: 1px solid $solidBottom;
+        border-radius: 0;
+        .page-roadmap-mobileHead-planned{
+            border-radius: 0;
+            font-size: 13px;
+            border-bottom: 4px solid rgba(255, 0, 0, 0);
+            padding: 20px 30px;
+            margin: 0 auto;
+            color: $pColor;
+             &:hover{
+         border-bottom: 4px solid rgb(255, 0, 0);
+             }
+   
+        }
+        .page-roadmap-mobileHead-inprogress{
+            border-radius: 0;
+            font-size: 13px;
+            border-bottom: 4px solid rgba(255, 0, 0, 0);
+            padding: 20px 30px;
+            margin: 0 auto;
+            color: $pColor;
+            
+         &:hover{
+         border-bottom: 4px solid rgb(255, 0, 0);
+
+             }
+            }
+        .page-roadmap-mobileHead-live{
+            border-radius: 0;
+            font-size: 13px;
+            border-bottom: 4px solid rgba(255, 0, 0, 0);
+            padding: 20px 30px;
+            margin: 0 auto;
+            color: $pColor;
+            
+         &:hover{
+         border-bottom: 4px solid rgb(255, 0, 0);
+            
+
+.page-roadmap-menu-item{
+        
+            opacity: 1;}
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+          }
+        }
+    }
+
+}
+
 
 }

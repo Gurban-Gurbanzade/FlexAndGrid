@@ -857,6 +857,246 @@
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element > .btn-number {
     width: 69px;
     height: 32px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned > i {
+    margin-right: 16px;
+    color: #f49f85;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned .circlePurple {
+    color: #AA1FE6 !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .circleBlue {
+    color: #62bcfa !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 32px;
+    bottom: 47px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > .p1 {
+    color: #3A4374 !important;
+    font-weight: bold !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > i {
+    margin-right: 10px;
+    color: #cdd2ee;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderPurple {
+    border-top: 5px solid #AA1FE6 !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
+    border-top: 5px solid #62bcfa !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .page-roadmap {
+    background-color: yellow !important;
+    width: 375px;
+    background-color: #f2f2f2;
+    padding: 0;
+    border-radius: 0;
+  }
+  .page-roadmap .page-roadmap-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 375 px;
+    height: 100px;
+    border-radius: 0;
+    background-color: #373F68;
+    padding: 30px;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1944px;
+    background: none;
+    border: none;
+    color: #647196;
+    color: white;
+    font-size: 13px !important;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
+    text-decoration: underline;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.33px;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    color: white;
+    font-size: 18px !important;
+  }
+  .page-roadmap .page-roadmap-head > button {
+    width: 134px;
+    height: 40px;
+    background-color: #AA1FE6;
+    color: white;
+    border-width: 0px;
+    font-size: 13px;
+  }
+  .page-roadmap .page-roadmap-head > button:hover {
+    background-color: #c75af6;
+  }
+  .page-roadmap .page-roadmap-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  .page-roadmap .page-roadmap-menu h3 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+  }
+  .page-roadmap .page-roadmap-menu h3:hover {
+    color: #4661e6;
+  }
+  .page-roadmap .page-roadmap-menu p {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu a {
+    display: inline-block;
+    padding: 5px 16px;
+    background-color: #F2F4FF;
+    text-decoration: none;
+    color: #4661E6;
+    margin-bottom: 10px;
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 11px;
+  }
+  .page-roadmap .page-roadmap-menu a:hover {
+    background-color: #cfd7ff;
+  }
+  .page-roadmap .page-roadmap-menu a:active {
+    background-color: #4661e6;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-menu a:hover {
+    background-color: #cfd7ff;
+  }
+  .page-roadmap .page-roadmap-menu a:active {
+    background-color: #4661e6;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 24px;
+    opacity: 0;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head h3 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+    margin-top: 24px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head p {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 327px;
+    height: 233px;
+    background-color: white;
+    margin-top: 16px;
+    padding: 20px;
+    border-top: 5px solid #f49f85;
+    position: relative;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element p, .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element h3, .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element a {
+    font-size: 13px !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element > .btn-number {
+    width: 69px;
     height: 32px;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned {
@@ -915,5 +1155,48 @@
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
     border-top: 5px solid #62bcfa !important;
+  }
+  .page-roadmap .page-roadmap-mobileHead {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #8c92b3;
+    border-radius: 0;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned:hover {
+    border-bottom: 4px solid red;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress:hover {
+    border-bottom: 4px solid red;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live:hover {
+    border-bottom: 4px solid red;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live:hover .page-roadmap-menu-item {
+    opacity: 1;
   }
 }
