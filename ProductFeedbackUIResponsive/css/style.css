@@ -1,1 +1,919 @@
-/* No CSS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.page {
+  width: 1440px;
+  padding: 94px 165px;
+  background-color: #f2f2f2;
+}
+
+.page .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .feedback .feedback-item .feedback-item-type {
+  width: 255px;
+  height: 137px;
+  padding: 24px;
+  color: white;
+  margin-bottom: 24px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  padding-top: 62px;
+}
+
+.page .feedback .feedback-item .feedback-item-type .feedback-item-type-head {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.25px;
+}
+
+.page .feedback .feedback-item .feedback-item-type .feedback-item-type-text {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.page .feedback .feedback-item .feedback-item-design {
+  width: 255px;
+  height: 166px;
+  padding: 24px;
+  margin-bottom: 24px;
+  background-color: white;
+}
+
+.page .feedback .feedback-item .feedback-item-design a {
+  display: inline-block;
+  padding: 5px 16px;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  margin-bottom: 10px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.page .feedback .feedback-item .feedback-item-design a:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-item .feedback-item-design a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
+.page .feedback .feedback-item .feedback-item-info {
+  width: 255px;
+  height: 178px;
+  padding: 24px;
+  margin-bottom: 24px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head > h3 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-head > a {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661e6;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-planned {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-planned > i {
+  margin-right: 16px;
+  color: #f49f85;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-progress > i {
+  margin-right: 16px;
+  color: #AA1FE6;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-live {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item .feedback-item-info-item-live > i {
+  margin-right: 16px;
+  color: #62bcfa;
+}
+
+.page .feedback .feedback-item .feedback-item-info .feedback-item-info-item > p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #647196;
+}
+
+.page .feedback .feedback-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .feedback .feedback-element .feedback-element-head {
+  width: 825px;
+  height: 72px;
+  background-color: #373F68;
+  color: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .feedback .feedback-element .feedback-element-head i {
+  margin-right: 20px;
+}
+
+.page .feedback .feedback-element .feedback-element-head h1 {
+  margin-right: 38px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
+.page .feedback .feedback-element .feedback-element-head a {
+  width: 194px;
+  height: 72px;
+  background-color: #373F68;
+  color: white;
+  padding: 26px 17.5px;
+  color: #F2F4FE;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+}
+
+.page .feedback .feedback-element .feedback-element-head button {
+  width: 158px;
+  height: 44px;
+  background-color: #AA1FE6;
+  color: white;
+  border-width: 0px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+  position: absolute;
+  right: 16px;
+}
+
+.page .feedback .feedback-element .feedback-element-head button:hover {
+  background-color: #c75af6;
+}
+
+.page .feedback .feedback-element .feedback-element-item {
+  background-color: white;
+  position: relative;
+  width: 825px;
+  height: 151px;
+  padding: 28px 32px;
+  margin-bottom: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page .feedback .feedback-element .feedback-element-item .btn-number {
+  width: 40px;
+  height: 53px;
+  background-color: #F2F4FE;
+  color: #373F68;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  margin-right: 40px;
+}
+
+.page .feedback .feedback-element .feedback-element-item .btn-number:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-element .feedback-element-item .btn-number:active {
+  background-color: #4661e6;
+  color: white;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text > h1 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text > p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a {
+  display: inline-block;
+  padding: 5px 16px;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  margin-bottom: 10px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 0px !important;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:hover {
+  background-color: #cfd7ff;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text-comment {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  color: #3A4374;
+  position: absolute;
+  right: 32px;
+  top: 64px;
+}
+
+.page .feedback .feedback-element .feedback-element-item .feedback-element-item-text-comment > i {
+  margin-right: 10px;
+  color: #cdd2ee;
+}
+
+.page .feedback .feedback-element .feedback-element-item:hover h1 {
+  color: #4661e6;
+}
+
+.page-roadmap {
+  width: 1440px;
+  background-color: #f2f2f2;
+  padding: 78px 165px;
+}
+
+.page-roadmap .page-roadmap-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1110 px;
+  height: 113px;
+  background-color: #373F68;
+  padding: 35px;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > button {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+  background: none;
+  border: none;
+  color: #647196;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
+  text-decoration: underline;
+}
+
+.page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.33px;
+  mix-blend-mode: normal;
+  opacity: 0.96;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-head > button {
+  width: 158px;
+  height: 44px;
+  background-color: #AA1FE6;
+  color: white;
+  border-width: 0px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1944px;
+}
+
+.page-roadmap .page-roadmap-head > button:hover {
+  background-color: #c75af6;
+}
+
+.page-roadmap .page-roadmap-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-roadmap .page-roadmap-menu h3 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.page-roadmap .page-roadmap-menu h3:hover {
+  color: #4661e6;
+}
+
+.page-roadmap .page-roadmap-menu p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+}
+
+.page-roadmap .page-roadmap-menu a {
+  display: inline-block;
+  padding: 5px 16px;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  margin-bottom: 10px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  padding: 11px;
+}
+
+.page-roadmap .page-roadmap-menu a:hover {
+  background-color: #cfd7ff;
+}
+
+.page-roadmap .page-roadmap-menu a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-menu a:hover {
+  background-color: #cfd7ff;
+}
+
+.page-roadmap .page-roadmap-menu a:active {
+  background-color: #4661e6;
+  color: white;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head h3 {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+  margin-top: 48px;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head p {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 350px;
+  height: 272px;
+  background-color: white;
+  margin-top: 24px;
+  padding: 32px;
+  border-top: 5px solid #f49f85;
+  position: relative;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #647196;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned > i {
+  margin-right: 16px;
+  color: #f49f85;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned .circlePurple {
+  color: #AA1FE6 !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .circleBlue {
+  color: #62bcfa !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment {
+  font-family: 'jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 32px;
+  bottom: 47px;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > .p1 {
+  color: #3A4374 !important;
+  font-weight: bold !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > i {
+  margin-right: 10px;
+  color: #cdd2ee;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderPurple {
+  border-top: 5px solid #AA1FE6 !important;
+}
+
+.page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
+  border-top: 5px solid #62bcfa !important;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .page-roadmap {
+    background-color: black !important;
+    width: 768px;
+    background-color: #f2f2f2;
+    padding: 56px 40px;
+  }
+  .page-roadmap .page-roadmap-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 689 px;
+    height: 113px;
+    background-color: #373F68;
+    padding: 32px;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1944px;
+    background: none;
+    border: none;
+    color: #647196;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
+    text-decoration: underline;
+  }
+  .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.33px;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-head > button {
+    width: 158px;
+    height: 44px;
+    background-color: #AA1FE6;
+    color: white;
+    border-width: 0px;
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1944px;
+  }
+  .page-roadmap .page-roadmap-head > button:hover {
+    background-color: #c75af6;
+  }
+  .page-roadmap .page-roadmap-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .page-roadmap .page-roadmap-menu h3 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+  }
+  .page-roadmap .page-roadmap-menu h3:hover {
+    color: #4661e6;
+  }
+  .page-roadmap .page-roadmap-menu p {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu a {
+    display: inline-block;
+    padding: 5px 16px;
+    background-color: #F2F4FF;
+    text-decoration: none;
+    color: #4661E6;
+    margin-bottom: 10px;
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 11px;
+  }
+  .page-roadmap .page-roadmap-menu a:hover {
+    background-color: #cfd7ff;
+  }
+  .page-roadmap .page-roadmap-menu a:active {
+    background-color: #4661e6;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-menu a:hover {
+    background-color: #cfd7ff;
+  }
+  .page-roadmap .page-roadmap-menu a:active {
+    background-color: #4661e6;
+    color: white;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head h3 {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+    margin-top: 48px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head p {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 223px;
+    height: 251px;
+    background-color: white;
+    margin-top: 24px;
+    padding: 20px;
+    border-top: 5px solid #f49f85;
+    position: relative;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element p, .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element h3, .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element a {
+    font-size: 13px !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element > .btn-number {
+    width: 69px;
+    height: 32px;
+    height: 32px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned > i {
+    margin-right: 16px;
+    color: #f49f85;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned .circlePurple {
+    color: #AA1FE6 !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .circleBlue {
+    color: #62bcfa !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment {
+    font-family: 'jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 32px;
+    bottom: 47px;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > .p1 {
+    color: #3A4374 !important;
+    font-weight: bold !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-element-item-text-comment > i {
+    margin-right: 10px;
+    color: #cdd2ee;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderPurple {
+    border-top: 5px solid #AA1FE6 !important;
+  }
+  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
+    border-top: 5px solid #62bcfa !important;
+  }
+}

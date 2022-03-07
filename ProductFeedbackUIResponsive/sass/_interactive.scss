@@ -1,0 +1,42 @@
+@import "typography";
+@mixin intDesign {
+    display: inline-block;
+    padding:5px 16px;
+    background-color: $designBR;
+    text-decoration: none;
+    color: $blue;
+    margin-bottom: 10px;
+    @include jostBody3;
+    &:hover{
+        background-color: $designBrHover;
+    }
+    &:active{
+        background-color: $designColor;
+        color: $white;
+                        }
+    }
+@mixin intSort {
+    width: 194px;
+    height: 72px;
+    background-color: $gray;
+    color: $white;
+    padding: 26px 17.5px;
+}
+@mixin intNumber {
+    width: 40px;
+    height: 53px;
+    background-color:$numBR;
+    color: $gray;
+    text-align: center;
+    text-decoration: none;
+    @include jostBody3;
+        &:hover{
+            background-color: $designBrHover;
+                    }
+        &:active{
+            background-color: $designColor;
+            color: $white;
+                        }
+}
+
+

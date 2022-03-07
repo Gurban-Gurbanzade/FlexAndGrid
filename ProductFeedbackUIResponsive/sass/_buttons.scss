@@ -1,0 +1,25 @@
+@import"typography";
+@import"colors";
+
+@mixin btnBack {
+    @include jostH4;
+    background: none;
+    border:none ;
+    color: $pColor;
+     &:hover{
+        text-decoration:underline;
+    }
+}
+
+@mixin btnStyle1{
+width: 158px;
+height: 44px;
+background-color: $purple;
+color: $white;
+border-width: 0px;
+@include jostH4;
+&:hover{
+    background-color: $purpleHover;
+}
+}
+

@@ -1,0 +1,402 @@
+@import "buttons";
+@import "colors";
+@import "commons";
+@import "interactive";
+@import "typography";
+@import "variables";
+////////////////////////////////////////////////////
+//
+//      Suggestion page və bütün əlaqələndirilmiş funksiyalar aşağıda yerləşdirilib
+//
+////////////////////////////////////////////////////
+.page{
+    @include sizePage;
+.feedback{
+    @include between;
+        .feedback-item{
+            @include   column;
+                .feedback-item-type{
+                    @include sizeType;
+                    .feedback-item-type-head{
+                        @include jostH2;
+                    }
+                    .feedback-item-type-text{
+                        @include jostBody2;
+                    }
+                }
+                .feedback-item-design{
+                    @include sizeDesign;
+                    a{
+                        @include intDesign;
+                    }
+                }
+                .feedback-item-info{
+                    @include sizeInfo;
+                    @include columnJustifyBetween;
+                    .feedback-item-info-head{
+                        @include between;
+                        >h3{
+                            @include jostH3;
+                            color:$hColor;
+                                }
+                        >a{
+                            @include jostBody3;
+                            color:$designColor;
+                                }
+                        }
+                    .feedback-item-info-item{
+                        @include between;
+                        @include jostBody1;
+                            .feedback-item-info-item-planned{
+                                @include flexJustifyBetweenAlignCenter;
+                                    >i{
+                                        margin-right: $circleRightSize;
+                                        color: $carrot;
+                                            }
+                                }
+                            .feedback-item-info-item-progress{
+                                @include flexJustifyBetweenAlignCenter;
+                                     >i{
+                                    margin-right: $circleRightSize;
+                                    color: $purple;
+                                        }
+                                }
+                            .feedback-item-info-item-live{
+                                @include flexJustifyBetweenAlignCenter;
+                                    >i{
+                                margin-right: $circleRightSize;
+                                color: $bluelight;
+                                        }
+                                }
+                        >p{@include jostBody1;
+                            font-weight: bold;
+                            color:$pColor;
+                            }
+                    }                  
+                }
+            }
+        .feedback-element{
+            @include column;
+            .feedback-element-head{
+                @include sizeHead;
+                @include rowAlignCenter;
+                i{
+                    margin-right: $Size1;
+                }
+                h1{
+                    margin-right: 38px;
+                   @include jostH3;
+                }
+                a{
+                    @include intSort;
+                    color: $numBR;
+                    @include jostH4;
+                }
+                button{
+                    @include btnStyle1;
+                    position:absolute;
+                    right: 16px;
+                        }
+            }
+            .feedback-element-item{
+                background-color: $white;
+                position: relative;
+                @include sizeItem;
+                @include row;
+                     .btn-number{
+                         @include intNumber;
+                         @include jostBody3;
+                         margin-right: 40px;
+                          }
+                .feedback-element-item-text{
+                    @include columnJustifyBetweenAlignStart;
+                    >h1{
+                        @include jostH3;
+                        color: $hColor;
+                    } 
+                    >p{
+                        @include jostBody1;
+                        color: $pColor;
+                    }                          
+                    a{
+                    @include intDesign;
+                    margin-bottom: 0px !important;                     
+                    }
+                }
+                .feedback-element-item-text-comment{
+                    @include jostBody1; 
+                    @include flexJustifyBetweenAlignCenter;
+                    font-weight: bold;
+                    color:$hColor;
+                    position: absolute;
+                    right: 32px;
+                    top:64px;
+                    >i{
+                        margin-right: $size;
+                        color: $commentColor;
+                    }
+                }
+                &:hover{
+                    h1{
+                        color:$designColor;
+                    }
+                }
+            }
+            }          
+    }
+}
+
+///////////////////////////////////////////////////////
+//
+// roadmap css elementlər aşağıda yerləşdirilib
+//
+///////////////////////////////////////////////////////
+.page-roadmap{
+    width: 1440px;
+    background-color: $maincolor;
+
+    padding: 78px 165px;
+    .page-roadmap-head{
+        @include between;
+        width: 1110 px;
+        height: 113px;
+        background-color: $headBR;
+        padding: 35px;
+            .page-roadmap-head-element{
+                >button{
+                    @include btnBack;
+                    color: $white;   
+                    }
+                >h1{
+                    @include jostH1;
+                    color: $white;
+                    }
+                }
+        >button{
+            @include btnStyle1;
+            }
+        }  
+    .page-roadmap-menu{
+        @include between;
+            h3{
+                @include jostH3;
+                color: $hColor;
+                &:hover{
+                    color: $designColor
+                }
+             }
+            p{
+                @include jostBody1;
+                color:$pColor;
+                 }
+            a{
+                @include intDesign;
+                @include jostBody3;
+                padding: 11px;
+                        &:hover{
+                            background-color: $designBrHover;
+                        }
+                          &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
+               }       
+        .page-roadmap-menu-item{
+        @include column;        
+        .page-roadmap-menu-item-head{
+            h3{
+                @include jostH3;
+                color: $hColor;
+                margin-top: 48px;
+                }
+            p{
+                @include jostBody1;
+                color: $pColor;
+                }
+        }
+        .page-roadmap-menu-item-element{
+            @include columnJustifyBetweenAlignStart;
+            width: 350px;
+            height: 272px;
+            background-color: $white;
+            margin-top: 24px;
+            padding: 32px;
+            border-top: 5px solid $carrot;
+            position: relative;; 
+        .feedback-item-info-item-planned{
+            @include jostBody1;
+            @include centerAlign;
+            color: $pColor;
+                >i{
+                    margin-right: 16px;
+                    color: $carrot;
+                }
+                .circlePurple{
+                color: $purple !important;
+                }              
+            }
+             .circleBlue{
+                color: $bluelight !important;
+                }
+            .feedback-element-item-text-comment{
+                    @include jostBody1;
+                    @include flexJustifyBetweenAlignCenter;       
+                    position: absolute;
+                    right:32px;
+                    bottom: 47px;
+                    >.p1{
+                        color:$hColor !important;
+                        font-weight: bold !important;
+                    }
+                    >i{
+                        margin-right: 10px;
+                        color: $commentColor;
+                    }
+                }
+            }
+         .borderPurple{
+            border-top: 5px solid $purple !important;
+            }
+        .borderBlue{
+            border-top: 5px solid $bluelight !important;
+            }
+        }  
+    }  
+}
+///////////////////////////////////////////////////////
+//
+// responsive tablet
+//
+///////////////////////////////////////////////////////
+@media (min-width: 576px) and (max-width: 768px){
+    .page-roadmap{
+    background-color: black !important;
+    width: 768px;
+    background-color: $maincolor;
+    padding: 56px 40px;
+    //padding: 78px 165px;
+    .page-roadmap-head{
+        @include between;
+        width: 689 px;
+        height: 113px;
+        background-color: $headBR;
+        padding: 32px;
+            .page-roadmap-head-element{
+                >button{
+                    @include btnBack;
+                    color: $white;   
+                    }
+                >h1{
+                    @include jostH1;
+                    color: $white;
+                    }
+                }
+        >button{
+            @include btnStyle1;
+            }
+        }  
+    .page-roadmap-menu{
+        @include between;
+            h3{
+                @include jostH3;
+                color: $hColor;
+                &:hover{
+                    color: $designColor
+                }
+             }
+            p{
+                @include jostBody1;
+                color:$pColor;
+                 }
+            a{
+                @include intDesign;
+                @include jostBody3;
+                padding: 11px;
+                        &:hover{
+                            background-color: $designBrHover;
+                        }
+                          &:active{
+                            background-color: $designColor;
+                            color: $white;
+                        }
+               }       
+        .page-roadmap-menu-item{
+        @include column;        
+        .page-roadmap-menu-item-head{
+            h3{
+                @include jostH3;
+                color: $hColor;
+                margin-top: 48px;
+                }
+            p{
+                @include jostBody1;
+                color: $pColor;
+                }
+        }
+        .page-roadmap-menu-item-element{
+            @include columnJustifyBetweenAlignStart;
+            width: 223px;
+            height: 251px;
+            background-color: $white;
+            margin-top: 24px;
+            padding: 20px;
+            border-top: 5px solid $carrot;
+            position: relative;
+            p,h3,a{
+            font-size: 13px !important;
+            }
+            
+            >.btn-number{
+                width: 69px;
+                height: 32px;
+                height: 32px;
+            }
+        .feedback-item-info-item-planned{
+            @include jostBody1;
+            @include centerAlign;
+            color: $pColor;
+                >i{
+                    margin-right: 16px;
+                    color: $carrot;
+                }
+                .circlePurple{
+                color: $purple !important;
+                }              
+            }
+             .circleBlue{
+                color: $bluelight !important;
+                }
+            .feedback-element-item-text-comment{
+                    @include jostBody1;
+                    @include flexJustifyBetweenAlignCenter;       
+                    position: absolute;
+                    right:32px;
+                    bottom: 47px;
+                    >.p1{
+                        color:$hColor !important;
+                        font-weight: bold !important;
+                    }
+                    >i{
+                        margin-right: 10px;
+                        color: $commentColor;
+                    }
+                }
+            }
+         .borderPurple{
+            border-top: 5px solid $purple !important;
+            }
+        .borderBlue{
+            border-top: 5px solid $bluelight !important;
+            }
+        }  
+    }  
+}
+}
+///////////////////////////////////////////////////////
+//
+// responsive tablet
+//
+///////////////////////////////////////////////////////
+@media (max-width: 576px){
+
+}

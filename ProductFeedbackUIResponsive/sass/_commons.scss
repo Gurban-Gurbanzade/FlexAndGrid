@@ -1,0 +1,59 @@
+@mixin sizePage{
+width: 1440px;
+padding: 94px 165px;
+background-color: $maincolor;
+}
+
+@mixin sizeType {
+width: 255px;
+height: 137px;
+padding: $Size2;
+color:$white;
+margin-bottom: $Size2;
+background: $gradient;
+padding-top: 62px;
+}
+@mixin sizeDesign{
+width: 255px;
+height: 166px;
+padding: $Size2;
+margin-bottom: $Size2;
+background-color: $white;
+}
+@mixin sizeInfo{
+width: 255px;
+height: 178px;
+padding: $Size2;
+margin-bottom: $Size2;
+background-color: $white;
+}
+@mixin sizeHead{
+    width: 825px;
+    height: 72px;
+    background-color: $gray;
+    color:$white;
+    padding: $Size2;
+    margin-bottom: $Size2;
+    position: relative;
+    }
+@mixin sizeItem{
+    width: 825px;
+    height: 151px;
+    padding: 28px 32px;
+    margin-bottom: $Size1;
+    background-color: $white;
+    }
+@mixin sizeEmpty{
+    width: 825px;
+    height: 600px;
+    background-color: $white;
+    padding: 111px 209px;
+    text-align: center;    
+    }
+@mixin sizeFeedback{
+    width: 540px;
+    height: 657px;
+    background-color: $white;
+    padding: 40px 42px;
+    text-align: center;    
+    }
