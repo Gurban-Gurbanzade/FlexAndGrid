@@ -8,6 +8,7 @@
     color: $pColor;
      &:hover{
         text-decoration:underline;
+        cursor: pointer;
     }
 }
 
@@ -20,6 +21,7 @@ border-width: 0px;
 @include jostH4;
 &:hover{
     background-color: $purpleHover;
+    cursor: pointer;
 }
 }
 

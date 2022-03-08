@@ -82,6 +82,7 @@
 
 .page .feedback .feedback-item .feedback-item-design a:hover {
   background-color: #cfd7ff;
+  cursor: pointer;
 }
 
 .page .feedback .feedback-item .feedback-item-design a:active {
@@ -287,6 +288,7 @@
 
 .page .feedback .feedback-element .feedback-element-head button:hover {
   background-color: #c75af6;
+  cursor: pointer;
 }
 
 .page .feedback .feedback-element .feedback-element-item {
@@ -387,6 +389,7 @@
 
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:hover {
   background-color: #cfd7ff;
+  cursor: pointer;
 }
 
 .page .feedback .feedback-element .feedback-element-item .feedback-element-item-text a:active {
@@ -459,6 +462,7 @@
 
 .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
@@ -489,6 +493,12 @@
 
 .page-roadmap .page-roadmap-head > button:hover {
   background-color: #c75af6;
+  cursor: pointer;
+}
+
+.page-roadmap .page-roadmap-mobileHead {
+  position: absolute;
+  z-index: -1;
 }
 
 .page-roadmap .page-roadmap-menu {
@@ -545,6 +555,7 @@
 
 .page-roadmap .page-roadmap-menu a:hover {
   background-color: #cfd7ff;
+  cursor: pointer;
 }
 
 .page-roadmap .page-roadmap-menu a:active {
@@ -680,9 +691,8 @@
   border-top: 5px solid #62bcfa !important;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 768px) {
   .page-roadmap {
-    background-color: black !important;
     width: 768px;
     background-color: #f2f2f2;
     padding: 56px 40px;
@@ -713,6 +723,7 @@
   }
   .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
   .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
     font-family: 'jost';
@@ -740,6 +751,7 @@
   }
   .page-roadmap .page-roadmap-head > button:hover {
     background-color: #c75af6;
+    cursor: pointer;
   }
   .page-roadmap .page-roadmap-menu {
     display: -webkit-box;
@@ -790,6 +802,7 @@
   }
   .page-roadmap .page-roadmap-menu a:hover {
     background-color: #cfd7ff;
+    cursor: pointer;
   }
   .page-roadmap .page-roadmap-menu a:active {
     background-color: #4661e6;
@@ -919,7 +932,6 @@
 
 @media (max-width: 375px) {
   .page-roadmap {
-    background-color: yellow !important;
     width: 375px;
     background-color: #f2f2f2;
     padding: 0;
@@ -953,6 +965,7 @@
   }
   .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
   .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
     font-family: 'jost';
@@ -976,6 +989,26 @@
   }
   .page-roadmap .page-roadmap-head > button:hover {
     background-color: #c75af6;
+  }
+  .page-roadmap .page-roadmap-mobileHead {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #8c92b3;
+    border-radius: 0;
+    position: relative;
+    z-index: 0;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #647196;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress:hover {
+    border-bottom: 4px solid red;
   }
   .page-roadmap .page-roadmap-menu {
     display: -webkit-box;
@@ -1027,6 +1060,7 @@
   }
   .page-roadmap .page-roadmap-menu a:hover {
     background-color: #cfd7ff;
+    cursor: pointer;
   }
   .page-roadmap .page-roadmap-menu a:active {
     background-color: #4661e6;
@@ -1039,7 +1073,24 @@
     background-color: #4661e6;
     color: white;
   }
+  .page-roadmap .page-roadmap-menu .plannedMobie {
+    border: 1px solid #000;
+    margin: 0 20px;
+  }
+  .page-roadmap .page-roadmap-menu .inprogressMobie {
+    position: absolute !important;
+    z-index: -1;
+    top: 0;
+    left: 24px;
+  }
+  .page-roadmap .page-roadmap-menu .liveMobie {
+    position: absolute !important;
+    top: 0;
+    left: 24px;
+    opacity: 0;
+  }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
+    background-color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1050,7 +1101,7 @@
     position: absolute;
     top: 0;
     left: 24px;
-    opacity: 0;
+    opacity: 1;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head h3 {
     font-family: 'jost';
@@ -1155,48 +1206,5 @@
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
     border-top: 5px solid #62bcfa !important;
-  }
-  .page-roadmap .page-roadmap-mobileHead {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-bottom: 1px solid #8c92b3;
-    border-radius: 0;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned {
-    border-radius: 0;
-    font-size: 13px;
-    border-bottom: 4px solid rgba(255, 0, 0, 0);
-    padding: 20px 30px;
-    margin: 0 auto;
-    color: #647196;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned:hover {
-    border-bottom: 4px solid red;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress {
-    border-radius: 0;
-    font-size: 13px;
-    border-bottom: 4px solid rgba(255, 0, 0, 0);
-    padding: 20px 30px;
-    margin: 0 auto;
-    color: #647196;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress:hover {
-    border-bottom: 4px solid red;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live {
-    border-radius: 0;
-    font-size: 13px;
-    border-bottom: 4px solid rgba(255, 0, 0, 0);
-    padding: 20px 30px;
-    margin: 0 auto;
-    color: #647196;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live:hover {
-    border-bottom: 4px solid red;
-  }
-  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live:hover .page-roadmap-menu-item {
-    opacity: 1;
   }
 }

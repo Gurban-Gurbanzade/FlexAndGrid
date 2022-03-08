@@ -9,6 +9,7 @@
     @include jostBody3;
     &:hover{
         background-color: $designBrHover;
+        cursor: pointer;
     }
     &:active{
         background-color: $designColor;
