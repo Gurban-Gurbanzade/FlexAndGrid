@@ -709,33 +709,6 @@
     background-color: #373F68;
     padding: 32px;
   }
-  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.1944px;
-    background: none;
-    border: none;
-    color: #647196;
-    color: white;
-  }
-  .page-roadmap .page-roadmap-head .page-roadmap-head-element > button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  .page-roadmap .page-roadmap-head .page-roadmap-head-element > h1 {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: -0.33px;
-    mix-blend-mode: normal;
-    opacity: 0.96;
-    color: white;
-  }
   .page-roadmap .page-roadmap-head > button {
     width: 158px;
     height: 44px;
@@ -752,95 +725,6 @@
   .page-roadmap .page-roadmap-head > button:hover {
     background-color: #c75af6;
     cursor: pointer;
-  }
-  .page-roadmap .page-roadmap-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .page-roadmap .page-roadmap-menu h3 {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: -0.25px;
-    color: #3A4374;
-  }
-  .page-roadmap .page-roadmap-menu h3:hover {
-    color: #4661e6;
-  }
-  .page-roadmap .page-roadmap-menu p {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    color: #647196;
-  }
-  .page-roadmap .page-roadmap-menu a {
-    display: inline-block;
-    padding: 5px 16px;
-    background-color: #F2F4FF;
-    text-decoration: none;
-    color: #4661E6;
-    margin-bottom: 10px;
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 19px;
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 19px;
-    padding: 11px;
-  }
-  .page-roadmap .page-roadmap-menu a:hover {
-    background-color: #cfd7ff;
-    cursor: pointer;
-  }
-  .page-roadmap .page-roadmap-menu a:active {
-    background-color: #4661e6;
-    color: white;
-  }
-  .page-roadmap .page-roadmap-menu a:hover {
-    background-color: #cfd7ff;
-  }
-  .page-roadmap .page-roadmap-menu a:active {
-    background-color: #4661e6;
-    color: white;
-  }
-  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head h3 {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: -0.25px;
-    color: #3A4374;
-    margin-top: 48px;
-  }
-  .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-head p {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    color: #647196;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element {
     display: -webkit-box;
@@ -872,17 +756,6 @@
     height: 32px;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     color: #647196;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .page-roadmap-menu-item-element .feedback-item-info-item-planned > i {
@@ -931,6 +804,9 @@
 }
 
 @media (max-width: 375px) {
+  body {
+    background-color: #f2f2f2;
+  }
   .page-roadmap {
     width: 375px;
     background-color: #f2f2f2;
@@ -999,16 +875,41 @@
     position: relative;
     z-index: 0;
   }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #ABB0C7;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-planned:hover {
+    border-bottom: 4px solid #f49f85;
+    color: #3A4374;
+  }
   .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress {
     border-radius: 0;
     font-size: 13px;
     border-bottom: 4px solid rgba(255, 0, 0, 0);
     padding: 20px 30px;
     margin: 0 auto;
-    color: #647196;
+    color: #ABB0C7;
   }
   .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-inprogress:hover {
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid #AA1FE6;
+    color: #3A4374;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live {
+    border-radius: 0;
+    font-size: 13px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0);
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: #ABB0C7;
+  }
+  .page-roadmap .page-roadmap-mobileHead .page-roadmap-mobileHead-live:hover {
+    border-bottom: 4px solid #62bcfa;
+    color: #3A4374;
   }
   .page-roadmap .page-roadmap-menu {
     display: -webkit-box;
@@ -1018,26 +919,6 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: relative;
-  }
-  .page-roadmap .page-roadmap-menu h3 {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: -0.25px;
-    color: #3A4374;
-  }
-  .page-roadmap .page-roadmap-menu h3:hover {
-    color: #4661e6;
-  }
-  .page-roadmap .page-roadmap-menu p {
-    font-family: 'jost';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    color: #647196;
   }
   .page-roadmap .page-roadmap-menu a {
     display: inline-block;
@@ -1090,7 +971,6 @@
     opacity: 0;
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item {
-    background-color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1206,5 +1086,11 @@
   }
   .page-roadmap .page-roadmap-menu .page-roadmap-menu-item .borderBlue {
     border-top: 5px solid #62bcfa !important;
+  }
+  .plannedMobie {
+    display: none !important;
+  }
+  .liveMobie {
+    display: none !important;
   }
 }

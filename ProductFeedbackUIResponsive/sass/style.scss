@@ -154,7 +154,6 @@
 .page-roadmap{
     width: 1440px;
     background-color: $maincolor;
-
     padding: 78px 165px;
     .page-roadmap-head{
         @include between;
@@ -274,69 +273,21 @@
 ///////////////////////////////////////////////////////
 @media (min-width: 376px) and (max-width: 768px){
     .page-roadmap{
-    //background-color: black !important;
     width: 768px;
     background-color: $maincolor;
     padding: 56px 40px;
-    //padding: 78px 165px;
     .page-roadmap-head{
         @include between;
         width: 689 px;
         height: 113px;
         background-color: $headBR;
         padding: 32px;
-            .page-roadmap-head-element{
-                >button{
-                    @include btnBack;
-                    color: $white;   
-                    }
-                >h1{
-                    @include jostH1;
-                    color: $white;
-                    }
-                }
         >button{
             @include btnStyle1;
             }
         }  
     .page-roadmap-menu{
-        @include between;
-            h3{
-                @include jostH3;
-                color: $hColor;
-                &:hover{
-                    color: $designColor
-                }
-             }
-            p{
-                @include jostBody1;
-                color:$pColor;
-                 }
-            a{
-                @include intDesign;
-                @include jostBody3;
-                padding: 11px;
-                        &:hover{
-                            background-color: $designBrHover;
-                        }
-                          &:active{
-                            background-color: $designColor;
-                            color: $white;
-                        }
-               }       
         .page-roadmap-menu-item{
-        @include column;        
-        .page-roadmap-menu-item-head{
-            h3{
-                @include jostH3;
-                color: $hColor;
-                margin-top: 48px;
-                }
-            p{
-                @include jostBody1;
-                color: $pColor;
-                }
-        }
         .page-roadmap-menu-item-element{
             @include columnJustifyBetweenAlignStart;
             width: 223px;
@@ -356,8 +307,7 @@
                 
             }
         .feedback-item-info-item-planned{
-            @include jostBody1;
-            @include centerAlign;
+            
             color: $pColor;
                 >i{
                     margin-right: 16px;
@@ -402,14 +352,14 @@
 //
 ///////////////////////////////////////////////////////
 @media (max-width: 375px){
+    body{
+        background-color: $maincolor
+    }
 .page-roadmap{
-   // background-color: yellow !important;
     width: 375px;
     background-color: $maincolor;
     padding:0;
     border-radius: 0;
-  
-    //padding: 78px 165px;
     .page-roadmap-head{
         @include between;
         width: 375 px;
@@ -439,66 +389,51 @@
         border-radius: 0;
         position: relative;
         z-index: 0;
-        
-        // .page-roadmap-mobileHead-planned{
-        //     border-radius: 0;
-        //     font-size: 13px;
-        //     border-bottom: 4px solid rgba(255, 0, 0, 0);
-        //     padding: 20px 30px;
-        //     margin: 0 auto;
-        //     color: $pColor;
-        //      &:hover{
-        //  border-bottom: 4px solid rgb(255, 0, 0);
-        //      }
-   
-        // }
+         .page-roadmap-mobileHead-planned{
+             border-radius: 0;
+            font-size: 13px;
+             border-bottom: 4px solid rgba(255, 0, 0, 0);
+             padding: 20px 30px;
+             margin: 0 auto;
+             color: $colorMobile;
+              &:hover{
+          border-bottom: 4px solid $carrot;
+          color: $hColor;
+              }
+         }
         .page-roadmap-mobileHead-inprogress{
             border-radius: 0;
             font-size: 13px;
             border-bottom: 4px solid rgba(255, 0, 0, 0);
             padding: 20px 30px;
             margin: 0 auto;
-            color: $pColor;
+            color: $colorMobile;
+            &:hover{
+                border-bottom: 4px solid $purple;;
+                color: $hColor;
+                }
+            }
+         .page-roadmap-mobileHead-live{
+            border-radius: 0;
+            font-size: 13px;
+            border-bottom: 4px solid rgba(255, 0, 0, 0);
+            padding: 20px 30px;
+            margin: 0 auto;
+            color: $colorMobile;
             
          &:hover{
-         border-bottom: 4px solid rgb(255, 0, 0);
-
-             }
+            border-bottom: 4px solid $bluelight;
+            color: $hColor;
             }
-    //     .page-roadmap-mobileHead-live{
-    //         border-radius: 0;
-    //         font-size: 13px;
-    //         border-bottom: 4px solid rgba(255, 0, 0, 0);
-    //         padding: 20px 30px;
-    //         margin: 0 auto;
-    //         color: $pColor;
-            
-    //      &:hover{
-    //      border-bottom: 4px solid rgb(255, 0, 0);
-            
-
-    //   }
-    //     }
+         }
     }
      .page-roadmap-menu{
          @include between;
          position: relative;
-         
-            h3{
-                @include jostH3;
-                color: $hColor;
-                &:hover{
-                  color: $designColor
-                 }
-              }
-             p{
-                 @include jostBody1;
-                 color:$pColor;
-              }
              a{
-                 @include intDesign;
+                @include intDesign;
                 @include jostBody3;
-             padding: 11px;
+                padding: 11px;
                         &:hover{
                              background-color: $designBrHover;
                          }
@@ -508,6 +443,7 @@
                          }
                 }       
                    .plannedMobie{
+                       
                       border: 1px solid #000;
                       margin: 0 20px;
                                 }
@@ -523,18 +459,12 @@
                  left: 24px;
                  opacity: 0;
                          }  
-         
         .page-roadmap-menu-item{
-            background-color: black;
          @include column;  
             position: absolute;
             top: 0;
             left: 24px;
             opacity: 1;
-            
-           
-
-         
          .page-roadmap-menu-item-head{
              h3{
                  @include jostH3;
@@ -546,7 +476,7 @@
                  color: $pColor;
                  }
          }
-         .page-roadmap-menu-item-element{
+         .page-roadmap-menu-item-element{   
              @include columnJustifyBetweenAlignStart;
              width: 327px ;
              height: 233px;
@@ -609,8 +539,12 @@
          
     }  
      
-
 }
 
-
+.plannedMobie{
+   display: none !important;
+}
+.liveMobie{
+   display: none !important;
+}
 }
