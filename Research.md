@@ -22,13 +22,14 @@
 <br>
         -
 <br>
+
 >Variables məqaləsinin effektiv oxunması üçün suallar
 <br>
     1)let,var,const ifadələri arasında fərqlər nədir?
 <br>
         -
 <br>
-dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+    2)dəyişən təyin edərkən adlandırma qaydaları nələrdir?
 let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
 
 
