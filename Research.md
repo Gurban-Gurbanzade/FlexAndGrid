@@ -1,4 +1,50 @@
+> Hello World məqaləsinin effektiv oxunması üçün suallar
+<br>
+    1)Javascript kodları necə formada yazıla bilər?
+<br>
+        -
+<br>
+    2)Javascript kodlarının script tagları daxilində yazmaqla ayrı fayl formatında yazıb import etmek arasında nə fərq var?<br>
+        -
+<br>
+    3)Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.<br>
+        - 
+<br>
 
+> Code Structure məqaləsinin effektiv oxunması üçün suallar
+> 
+<br>
+    1)";" hansı hallarda istifadə edilir?
+<br>
+        -   
+<br>
+    2)Javascript-də comment yazmaq üçün neçə üsul var.
+<br>
+        -
+<br>
+
+>Variables məqaləsinin effektiv oxunması üçün suallar
+<br>
+    1)let,var,const ifadələri arasında fərqlər nədir?
+<br>
+        -
+<br>
+    2)dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 [a. interpreter və compiler dillər arasındakı fərqləri haqqında araşdırma edərək öz anladığınız formada yazın
 -interpereter dillərdə kodlar sətir sətir oxunur. hansısa sətirdə səhv olduqda proqram həmin sətiri göstərir ancaq proqramı yenə tərcümə edir. Compiler dillərdə isə bütövlükdə oxunur. Hansısa sətirdə səhv olduqda proqram işləmir və dil tərcümə olunmur. Yalnız səhv aradan qaldırıldıqdan sonra tərcümə olunur.]
 
