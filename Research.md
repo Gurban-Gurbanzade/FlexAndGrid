@@ -1,5 +1,7 @@
-> Hello World məqaləsinin effektiv oxunması üçün suallar<br>
-    1)Javascript kodları necə formada yazıla bilər?<br>
+> Hello World məqaləsinin effektiv oxunması üçün suallar
+<br>
+    1)Javascript kodları necə formada yazıla bilər?
+<br>
         -
 <br>
     2)Javascript kodlarının script tagları daxilində yazmaqla ayrı fayl formatında yazıb import etmek arasında nə fərq var?<br>
@@ -8,6 +10,26 @@
     3)Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.<br>
         - 
 <br>
+
+> Code Structure məqaləsinin effektiv oxunması üçün suallar
+> 
+<br>
+    1)";" hansı hallarda istifadə edilir?
+<br>
+        -   
+<br>
+    2)Javascript-də comment yazmaq üçün neçə üsul var.
+<br>
+        -
+<br>
+>Variables məqaləsinin effektiv oxunması üçün suallar
+<br>
+    1)let,var,const ifadələri arasında fərqlər nədir?
+<br>
+        -
+<br>
+dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
 
 
 
