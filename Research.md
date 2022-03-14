@@ -2,46 +2,84 @@
 <br>
     1)Javascript kodları necə formada yazıla bilər?
 <br>
-        -
+        -HTML faylında script teqlərinin daxilində və ya ayrıca js faylında.
 <br>
-    2)Javascript kodlarının script tagları daxilində yazmaqla ayrı fayl formatında yazıb import etmek arasında nə fərq var?<br>
-        -
+    2)Javascript kodlarının script tagları daxilində yazmaqla ayrı fayl formatında yazıb import etmek arasında nə fərq var?
+<br>
+        -Ayrı fayl daxilində yazılanda brauzer onu 1 dəfə yükləyir və keş yaddaşında saxlayır. Həmin scriptə istinad edən səhifələr onu yükləmək əvəzinə brauzein keş yaddaşından götürəcək. Nəticədə yüklənmə olmayacaq və səhifə daha sürətli olacaq. HTML daxilində isə ən sadə scriptlər olur. Zənnimcə HTML faylında olduqda hər dəfə brauzer yenidən bu faylları yükləyir.
 <br>
     3)Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.<br>
-        - 
+        - Zənnimcə html kodu daxilində yazıldıqda V8 bu kodları adi html kodları kimi başa düşür və tərcümə etmir. Bu səbəbdən biz o kodları script teqinin daxilində yazırıq ki V8 bunun js kodlar olduğunu anlasın və onu tərcümə etsin. 
+<br>
 <br>
 
-> Code Structure məqaləsinin effektiv oxunması üçün suallar
-> 
+> Code Structure məqaləsinin effektiv oxunması üçün suallar 
 <br>
     1)";" hansı hallarda istifadə edilir?
 <br>
-        -   
+        - Əgər yeni sətirə keçəciksə bu zaman ";" istifadə etməliyik. Əslində istifadə etməsək də olar. Bu zaman js  ";" istifadə olunmayan sətir ilə növbəti sətiri eyni sətir kimi oxuyur və bəzi hallarda proqram bunu xəta kimi görür.   
 <br>
     2)Javascript-də comment yazmaq üçün neçə üsul var.
 <br>
-        -
+        - Tək sətiri comment olaraq yazmaq istəyiriksə // istifadə edirik. /*…*/ çoxlu sətiri comment olaraq istifadə etmək istəyiriksə bu işarədən istifadə edirik
+<br>
 <br>
 
 >Variables məqaləsinin effektiv oxunması üçün suallar
 <br>
     1)let,var,const ifadələri arasında fərqlər nədir?
 <br>
-        -
+        -Const sabit dəyişəndir və ona mənimsədilən dəyərlər dəyişmir.Let-ə isə ancaq blok daxilində nə isə mənimsədilib çağırıla bilər. Gündəlik kod yazılımında let-dən istifadə olunur əksər hallarda. Var blok tanımır və onunla tanıdılan dəyişənlərə istənilən yerdə istənilən dəyəri mənimsətmək olar.
+
 <br>
     2)dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+<br>
+        -Dəyişən təyin edərkən ilk simvol rəqəm ola bilməz. JS-in öz sintaksis sözlərindən ola bilməz. Ancaq hərf, rəqəm, $ və _ işarələrindən ola bilər.
+<br>
 let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
+<br>
+        -5 yaddaşdan silinir artıq x 7 kimi tanınır.
+<br>
+<br>
 
+>Data Types məqaləsinin effektiv oxunması üçün suallar
+<br>
+5 dəyəri yaddasa yazılarkən 2-li say sisteminə çevrilir və ona görə yaddaşda tutduğu yer hesablanır.Bəs 5.34 dəyərinin yaddaşda tutduğu yeri necə hesablamaq olar?
+<br>
+        -Yuvarlaqlaşdırıldıqdan sonra 2-lik say sisteminə çevrilir.
+<br>
+undefined, NaN və null dəyərlərinin yaddaşda nə qədər yer tutduğunu araşdırın
+<br>
+        -yaddaşda yer tutmur
+<br>
+let a; bu formada dəyişən təyin etmişəm.
+<br>
+Bu dəyişən yaddaşda stack-da mı yoxsa heap-də mi yerləşir
+<br>
+        - a dəyişəni stack-da ona mənimsədilən dəyər heap-də yerləşir.
+<br>
+Bu dəyişən yaddaşda yer tuturmu? Tutursa nə qədər yer tutur?
+<br>
+        -Yer tutmur
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
+>Type Conversion məqaləsinin effektiv oxunması üçün suallar
+<br>
+    1)Ümumiyyətlə sizə görə bir məlumat növünü başqa məlumat növünə çevirmək nəyə lazımdır?
+<br>
+        - Bəzən rəqəmləri simvol kimi və ya əksinə istifadə etmək lazım olur bu zaman bu əməliyyatlardan istifadə edirik. Eyni zamanda məlumatın olub olmadığını 0 və 1 olduğunu təyin etmək üçün.
+<br>
+    2)Type Conversion necə formada həyata keçirilir?
+<br>
+        -3 formada
+<br>        
+    3)Type Conversion metodlarının siyahısını çıxarın
+<br>
+        -To Number, To String, To Boolean
+<br>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
