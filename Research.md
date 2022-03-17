@@ -1,3 +1,6 @@
+# Understanding Syntax and Code Structure in JavaScript
+###### Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 > Hello World məqaləsinin effektiv oxunması üçün suallar
 <br>
     1)Javascript kodları necə formada yazıla bilər?
