@@ -1,5 +1,10 @@
-# Understanding Syntax and Code Structure in JavaScript
-###### Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?
+### Understanding Syntax and Code Structure in JavaScript
+    **Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?**
+        *Xeyr qayıtmayacaq.Heç birində error verməyəcək*
+    **Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?**
+        *() - hər hansı çərt içində yazılır, hər hansı funksiyanı bildirir. {} - proqram başa düşürki bu mötərizənin içində hər hansı bir əməliyyat gedəcək. If, for, do, while, class, switch və s. şərti ödəndikdə bu mötərizələrin içində olan əməliyyat yerinə yetirilir*
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 > Hello World məqaləsinin effektiv oxunması üçün suallar
 <br>
