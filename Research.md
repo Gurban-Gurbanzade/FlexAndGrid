@@ -1,15 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>
 >Understanding Syntax and Code Structure in JavaScript
 
-    **Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?** <br>
-        * Xeyr qayıtmayacaq.Heç birində error verməyəcək * <br>
+    **Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?**<br>
+        *Xeyr qayıtmayacaq.Heç birində error verməyəcək*<br>
     **Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?**<br>
         *() - hər hansı çərt içində yazılır, hər hansı funksiyanı bildirir. {} - proqram başa düşürki bu mötərizənin içində hər hansı bir əməliyyat gedəcək. If, for, do, while, class, switch və s. şərti ödəndikdə bu mötərizələrin içində olan əməliyyat yerinə yetirilir*<br>
     **let StudentName; let studentName; let studentname yazılışları arasında Javascript üçün hər hansı fərq varmı? Qısacası Javascript Case Sensitive dildir?**<br>
         *Bunlar ayrı-ayrı dəyişənlərdir. Bəli.*<br>
     **Javascriptdə kod yazarkən indentation hansı hallarda istifadə olunur və mən kod yazarkən indentation istifadə etməyə məcburammı?**<br>
          *Kodların oxunaqlı və səliqəli görünməsi üçün istifadə olunur. Xeyr məcbur deyil.*<br><br><br>
-         
->3Primitive and Reference data types?
+
+>Primitive and Reference data types?
 
    **-let x=5; kodlarının v8engine tərəfindən tərcümə edilərək maşın dilinə çevrilmə prosesini necə təsəvüür edirsiniz?**<br>
          *v8 stack yaddaşda bir xanaya 5 dəyərini mənimsədir və bir xanayada x dəyişənini.*<br>
@@ -26,44 +27,19 @@
 
 >NaN, null, undefined in Javascript
 
-   **Bu tiplər başqa hansı dillərdə mövcuddur?**<br>
-         **<br>
-   **NaN null və undefined bunlardan hansı data tipdir və növləri nədir? Primitive yoxsa reference tip olub olmadığı haqqında nə deyə bilərsiz?**<br>
-         **<br>
-   **Type Casting metodlarından istifadə edərək bu dəyərləri çevirəndə hansı nəticələr əldə edildiyini analiz edin və bunun səbəblərini araşdırın**<br>
-         **<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+   **-Bu tiplər başqa hansı dillərdə mövcuddur?**<br>
+         *Ancaq javascriptdə mövcuddur*<br>
+   **-NaN null və undefined bunlardan hansı data tipdir və növləri nədir? Primitive yoxsa reference tip olub olmadığı haqqında nə deyə bilərsiz?**<br>
+         *Undifined və null primitiv data tipdir.*<br>
+   **-Type Casting metodlarından istifadə edərək bu dəyərləri çevirəndə hansı nəticələr əldə edildiyini analiz edin və bunun səbəblərini araşdırın**<br>
+         *Araşdırıldı*<br><br><br>
+         
+>Expressions and operators
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   **-expression deyiləndə nə başa düşməyim lazımdır?**<br>
+         *Hansısa yazılı ifadədir və heç bir əməliyyat yerinə yetirmir*<br>
+   **-operator və expression arasında fərqlər nələrdir?**<br>
+         *operatorlar isə hansısa əməliyyatı icra edir. Yazılış qaydaları fərqlidir.*<br><br><br>
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
