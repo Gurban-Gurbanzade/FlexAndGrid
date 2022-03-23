@@ -1,3 +1,29 @@
+>Imperative and Declarative Approach in programming
+
+   **-Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?**<br>
+         *Kodların yazılış forması. Bir çox əməliyyatlar yerinə yetirəcək funksiyaların proqram daxilində düzülüşü*<br>
+   **-Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın**<br>
+          *Kod yazmağıöyrənmə-imperativ. Kafedə yemək sifariş etmək-deklorativ.*<br>
+   **-Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?**<br>
+          *Funksiyanın içində hansı əməliyyatların getdiyi maraqlı deyil. Əsas odur funksiya işləsin və bizə lazım olan nəticəni versin.*<br>
+   **-imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin**<br>
+          <br><br><br>
+   >Function in Javascript
+
+   **-Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?**<br>
+         *Kodların yazılış forması. Bir çox əməliyyatlar yerinə yetirəcək funksiyaların proqram daxilində düzülüşü*<br>
+   **-Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın**<br>
+          *Kod yazmağıöyrənmə-imperativ. Kafedə yemək sifariş etmək-deklorativ.*<br>
+   **-Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?**<br>
+          *Funksiyanın içində hansı əməliyyatların getdiyi maraqlı deyil. Əsas odur funksiya işləsin və bizə lazım olan nəticəni versin.*<br>
+   **-imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin**<br>
+          **<br><br><br>
+
+
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>
 >Understanding Syntax and Code Structure in JavaScript
 
