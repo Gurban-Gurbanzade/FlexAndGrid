@@ -1,3 +1,43 @@
+>Imperative and Declarative Approach in programming
+
+   **-Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?**<br>
+         *Kodların yazılış forması. Bir çox əməliyyatlar yerinə yetirəcək funksiyaların proqram daxilində düzülüşü*<br>
+   **-Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın**<br>
+          *Kod yazmağıöyrənmə-imperativ. Kafedə yemək sifariş etmək-deklorativ.*<br>
+   **-Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?**<br>
+          *Funksiyanın içində hansı əməliyyatların getdiyi maraqlı deyil. Əsas odur funksiya işləsin və bizə lazım olan nəticəni versin.*<br>
+   **-imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin**<br>
+          <br><br><br>
+          
+>Function in Javascript
+
+   **-Function necə formada təyin olunur?**<br>
+         * 3 formada təyin olunur*<br>
+   **-Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?**<br>
+          *Yazacağımız proqramın formasına, nəticəsinə və s. görə dəyişir*<br>
+   **-function scope və global scope arasında fərqlər nədir?**<br>
+          *funksiyanın daxilində təyin olunan dəyişən qlobalda dəyişə bilməz. Ancaq qlobalda təyin olunan dəyişən funksiyanın daxilində dəyişə bilər.*<br>
+   **-function ramdə necə yer tutur?**<br>
+          *Function dəyişənləri stack yaddaşda yer tutur. Funksiya çsğırılan zaman nəticə göstərilir və sonra yaddaşdan silinir.*<br><br><br>
+          
+ >Növbəti dərsin mövzuları üçün araşdırma sualları
+
+   **-Javascript kodlarının arxa planda işləmə prinsipi necədir?**<br>
+         **<br>
+   **-Allocate memory-use memory- release memory ifadələri nə deməkdir?**<br>
+          **<br>
+   **-Static allocation vs dynamic allocation**<br>
+          **<br>
+   **-garbage collection nədir?**<br>
+          **<br><br><br>
+          
+hoisting nədir?
+scope və hoisting ifadələri arasında fərq nədir?
+
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>
 >Understanding Syntax and Code Structure in JavaScript
 
