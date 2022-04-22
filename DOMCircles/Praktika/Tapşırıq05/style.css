@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1350px;
+  height: 100vh;
+  background-image: url(img/American-style_pool_table_diagram_\(empty\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
