@@ -1,3 +1,4 @@
+"use strict";
 function createMultipleCircle(
   _selector,
   _circleCount,
