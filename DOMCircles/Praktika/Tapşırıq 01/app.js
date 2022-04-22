@@ -1,3 +1,4 @@
+"use strict";
 function createCircle(_selector, _radius, _backgroundColor) {
   let elementİnHtml = document.createElement("div");
   let daire = document.createElement("div");
