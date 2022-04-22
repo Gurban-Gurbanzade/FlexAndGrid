@@ -1,0 +1,1 @@
+### Alqoritmlər adlarına uyğun yerləşdirilib. Hackerrank saytının qaydalarına uyğun həll olunub. Yoxlamaq üçün profilimdə yerləşdirdiyim link vasitəsi ilə hackerrank profilimə keçid edib baxa və ya buradakı kodları yoxlaya bilərsiniz.
