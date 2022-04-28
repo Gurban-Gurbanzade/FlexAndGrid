@@ -79,6 +79,16 @@ body .page-container .page-container-movies .page-container-movies-name p {
   padding: 0.5rem 1rem;
 }
 
+body .page-container .page-container-movies .page-container-movies-name p i {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+body .page-container .page-container-movies .page-container-movies-name .activeName {
+  background-color: #7fc8ff;
+  color: white;
+}
+
 body .page-container .page-container-movies .page-container-square {
   position: absolute;
   background-color: #e3f3ff;
@@ -114,4 +124,9 @@ body .page-container .page-container-search input {
   border: 0.1rem solid #7fc8ff;
   width: 100%;
   padding: 1.3rem 1.3rem;
+}
+
+.activeName {
+  background-color: #7fc8ff;
+  color: white;
 }

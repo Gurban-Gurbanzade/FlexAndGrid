@@ -38,6 +38,15 @@ body {
           border: 0.1rem solid $bg-color;
           display: inline-block;
           padding: 0.5rem 1rem;
+          i {
+            color: white;
+            margin-left: 0.5rem;
+          }
+        }
+
+        .activeName {
+          background-color: $bg-color;
+          color: white;
         }
       }
       .page-container-square {
@@ -76,4 +85,9 @@ body {
       }
     }
   }
+}
+
+.activeName {
+  background-color: $bg-color;
+  color: white;
 }
