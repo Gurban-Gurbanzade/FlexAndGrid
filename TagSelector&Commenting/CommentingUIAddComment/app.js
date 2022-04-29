@@ -2,7 +2,7 @@ function select() {
   let x = document.querySelector("input");
   let z = Number(document.querySelector(".commentsCountNumber").innerText);
 
-  if (x == "") {
+  if (x.value == "") {
     alert("Zəhmət olmasa şərh bildirin.");
   } else {
     let a = ` <div class="comment">
@@ -24,4 +24,3 @@ function select() {
     document.querySelector(".commentsCountNumber").innerText = `${z}`;
   }
 }
-console.log(document.querySelector(".commentsCountNumber").innerText);
