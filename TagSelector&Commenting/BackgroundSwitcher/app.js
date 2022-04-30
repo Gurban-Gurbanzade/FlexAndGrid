@@ -1,3 +1,4 @@
+"use strict";
 function onOff() {
   let x = document.querySelector(".container");
   if (x.style.backgroundColor == "rgb(37, 46, 72)") {
