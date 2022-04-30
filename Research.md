@@ -1,3 +1,11 @@
+ **-Document Object Model-də Node və Element arasındakı fərqlər nələrdir?**<br>
+         *DOM Element-bildiyimiz HTML teqləridir. a, body, li və s. DOM Node isə bura şərhlər iki teqin qovşağı və s. aiddir.*<br><br>
+   **-nextSibling və nextElementSibling metodları nə işə yarayır və fərqləri nələrdir?**<br>
+          *nextsiblig hər hans bir elementin onla eyni yerdə olan növbəti node-a müraciət edir.nextElementSibling isə növbəti elementə müraciət edir*<br><br>
+   **-HTML Events və Javascript Events arasındakı fərqlər nələrdir?**<br>
+          *HTML events html faylında hansı teqdə əməliyyat edəciksə onun daxilində yazırıq. Məsələn: onclick. JS-də isə bunu bir başa fayl daxilində id, class çağırmaqla edə bilirik.*<br><br>
+ 
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>
  **- Sual 01:JavaScript nədir və necə işləyir?**<br>
          *JavaScript veb üçün skript dilidir. JavaScript kodu birbaşa veb brauzerdə işləyir. JavaScript veb tətbiqetmələr və ya veb səhifələr yaratmaq üçün HTML və CSS ilə işləyir. JavaScript veb səhifələrin dinamik elementlərini idarə edir. Veb brauzerlərdə və son zamanlarda veb serverlərdə də işləyir. JavaScript yazmazdan əvvəl başlıq altında necə işlədiyini bilmək vacibdir. Öyrənmək üçün iki vacib hissə var: Veb brauzerinin necə işləməsi və Sənəd Nişanı Modeli (DOM). Veb brauzeri bir veb səhifəni yükləyir, HTML-i təhlil edir və məzmundan Sənəd Obyekt Modeli (DOM) kimi tanınan şey yaradır. DOM veb səhifənin canlı görünüşünü JavaScript kodunuza təqdim edir. Daha sonra brauzer şəkillər və CSS sənədləri kimi HTML ilə əlaqəli hər şeyi götürəcəkdir. CSS məlumatı CSS təhlilçisindən gəlir. HTML və CSS əvvəlcə veb səhifəni yaratmaq üçün DOM tərəfindən birləşdirilir. Sonra brauzerlərin JavaScript mühərriki JavaScript sənədlərini və satır kodlarını yükləyir, ancaq kodu dərhal işləmir. HTML və CSS-nin yüklənməsini bitirməsini gözləyir. Bunu etdikdən sonra JavaScript kodun yazıldığı qaydada yerinə yetirilir. Bu, DOM-un JavaScript kodu ilə yenilənməsi və brauzer tərəfindən göstərilməsi ilə nəticələnir. Buradakı sifariş vacibdir. JavaScript HTML və CSS-nin bitməsini gözləməsəydi, DOM elementlərini dəyişdirə bilməzdi. *<br>
  **-DOM Traversing nədir? Nümunələr ilə izah edin.**<br>
