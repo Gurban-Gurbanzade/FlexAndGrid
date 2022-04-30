@@ -1,3 +1,4 @@
+"use strict";
 function select() {
   let x = document.querySelector("input");
   let z = Number(document.querySelector(".commentsCountNumber").innerText);
