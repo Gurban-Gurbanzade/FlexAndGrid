@@ -31,4 +31,7 @@ function select() {
 function removeComment(comment) {
   let element = comment;
   element.remove();
+  let z = Number(document.querySelector(".commentsCountNumber").innerText);
+  z--;
+  document.querySelector(".commentsCountNumber").innerText = `${z}`;
 }
