@@ -1,3 +1,4 @@
+"use strict";
 function select() {
   let x = document.querySelector("input");
   if (x == "") {
