@@ -1,3 +1,5 @@
+// commentin yazılma tarixini gün olaraq tarix kimi qeyd etdim. Gunun hesablanmasının cavabı eyni olacaq deyə. Əgər gərəkərsə feedback verin push edim
+"use strict";
 function select() {
   let x = document.querySelector("input");
   let z = Number(document.querySelector(".commentsCountNumber").innerText);
