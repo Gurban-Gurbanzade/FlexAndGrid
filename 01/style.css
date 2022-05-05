@@ -1,22 +1,105 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 html {
   font-size: 62.5%;
 }
-
-div {
-  height: 20rem;
-  width: 10rem;
-  background-color: red;
-  border: 1px;
-  color: yellow;
+body {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
-.salam {
-  height: 200px;
-  width: 100px;
-  background-color: green;
-  border: 1px;
-  color: yellow;
+header {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.text h1 {
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.choose-annually {
+  font-size: medium;
+  font-weight: 200;
+  color: grey;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid rgb(7, 99, 238);
+}
+
+.choose-monthly {
+  background-color: rgb(7, 99, 238);
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid rgb(7, 99, 238);
+}
+price-list {
+  border: 0.1rem solid rgb(7, 99, 238);
+  padding: 2rem;
+  display: flex;
+}
+price-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 0.1rem solid rgb(7, 99, 238);
+  padding: 2rem;
+}
+.p1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.p2 {
+  font-weight: 800;
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(7, 99, 238);
+}
+.p3 {
+  color: grey;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.p4 {
+  color: grey;
+  font-size: 1.3rem;
+  align-self: flex-start;
+  margin-top: 0.8rem;
+}
+.p4 i {
+  color: rgb(47, 255, 82);
+  margin-right: 0.5rem;
+}
+
+.p5 {
+  background-color: white;
+  color: rgb(7, 99, 238);
+  font-size: medium;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid rgb(7, 99, 238);
+  box-shadow: 0rem 0rem 1rem 0.1rem grey;
+  margin-top: 3rem;
 }
