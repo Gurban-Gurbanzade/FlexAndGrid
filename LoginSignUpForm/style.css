@@ -42,6 +42,7 @@ section {
 .page-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 33rem;
   height: 50rem;
   border-radius: 0.5rem;
@@ -66,6 +67,13 @@ section {
   margin-bottom: 2rem;
   height: 4rem;
   padding: 0 1rem;
+  border: 0.1rem solid grey;
+  border-radius: 0.3rem;
+}
+.page-card-infologin input:focus {
+  outline: none;
+  border: 0.1rem solid blue;
+  border-radius: 0.3rem;
 }
 .page-card-check {
   display: flex;
@@ -78,6 +86,12 @@ section {
   display: flex;
   align-items: center;
   cursor: pointer;
+  position: relative;
+}
+.page-card-check-item i {
+  position: absolute;
+  top: -0.3rem;
+  left: 0.6rem;
 }
 .page-card-check-item label {
   cursor: pointer;
@@ -110,6 +124,9 @@ section {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 2rem;
+}
+.page-card-btnLogin:hover {
+  background-color: #009a8b;
 }
 .page-card-social {
   display: flex;
