@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 63.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.page {
+  width: 50%;
+  padding: 1rem;
+  background-color: #f55661;
+  width: 50%;
+}
+.page-header {
+  border-bottom: 0.1rem solid white;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.page-header h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.page-btn {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.page-btn a {
+  box-sizing: border-box;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 0;
+  width: 15.5rem;
+  text-align: center;
+  background-color: #c2444d;
+  border-radius: 0.5rem;
+}
+.page-btn a i {
+  background-color: white;
+  border-radius: 50%;
+  padding: 1.2rem 0.6rem;
+  color: #d32f2f;
+  text-align: center;
+}
+.page-anket {
+  margin-top: 2rem;
+  color: white;
+}
+.page-anket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.page-anket-header p {
+  color: gray;
+  font-size: 2rem;
+}
+.page-anket-box {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 3rem;
+}
+.page-anket-box label {
+  flex-basis: 1rem;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  align-self: center;
+}
+.page-anket-box input {
+  align-self: center;
+  flex-grow: 4;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: 0rem;
+  border-bottom: 0.2rem white solid;
+  background-color: #f77881;
+}
+.page-btn-down {
+  display: flex;
+  justify-content: space-between;
+}
+.page-btn-down button {
+  border-radius: 3rem;
+  padding: 0.5rem 1rem;
+  border: 0.1rem white solid;
+  text-align: center;
+  background-color: #d32f2f;
+  color: white;
+}
+/* ladsfnlsakn;asnk;anc;aknc */
+.meter {
+  box-sizing: content-box;
+  height: 1.8rem; /* Can be anything */
+  position: relative;
+  margin-top: 2rem;
+  background: #c2444d;
+}
+
+.page-btn-down .meter > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.meter > span:after,
+.animate > span > span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  /* background-image: linear-gradient(
+    225deg,
+    rgba(0, 0, 0, 0.39) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.39) 50%,
+    rgba(0, 0, 0, 0.39) 75%,
+    transparent 75%,
+    transparent
+  ); */
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -50px 0px;
+  }
+}
+
+.loading {
+  transition: 1s;
+}
+/*  */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="page">
+        <div class="page-header">
+          <h1>Create Your User Account</h1>
+          <p>FILL ALL FORM FIELD TO GO NEXT STEP</p>
+        </div>
+        <div class="page-btn">
+          <a onclick="doldur(event)" class="1"
+            ><i class="fa-solid fa-lock fa-xs"></i> ACCOUNT</a
+          >
+          <a onclick="doldur(event)" class="2"
+            ><i class="fa-solid fa-lock fa-xs"></i> PERSONAL</a
+          >
+          <a onclick="doldur(event)" class="3"
+            ><i class="fa-solid fa-lock fa-xs"></i> SOCIAL</a
+          >
+          <a onclick="doldur(event)" class="4"
+            ><i class="fa-solid fa-lock fa-xs"></i> CONFIRM</a
+          >
+        </div>
+        <div class="page-loading">
+          <div class="meter red">
+            <span class="loading" style="width: 75%"></span>
+          </div>
+        </div>
+        <div class="page-anket account">
+          <div class="page-anket-header">
+            <h1>Account Information</h1>
+            <p>Step 1-4</p>
+          </div>
+          <div class="page-anket-box">
+            <label for="">Email</label>
+            <input type="text" />
+          </div>
+          <div class="page-anket-box">
+            <label for="">User Name</label>
+            <input type="text" />
+          </div>
+          <div class="page-anket-box">
+            <label for="">Password</label>
+            <input type="text" />
+          </div>
+          <div class="page-anket-box">
+            <label for=""
+              >Confirm <br />
+              Password</label
+            >
+            <input type="text" />
+          </div>
+        </div>
+        <div class="page-btn-down">
+          <button>PREVIOUS</button>
+          <button>NEXT</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f1c0c87b9c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
