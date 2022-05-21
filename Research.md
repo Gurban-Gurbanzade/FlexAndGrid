@@ -1,5 +1,28 @@
- **-Document Object Model-də Node və Element arasındakı fərqlər nələrdir?**<br>
-         *DOM Element-bildiyimiz HTML teqləridir. a, body, li və s. DOM Node isə bura şərhlər iki teqin qovşağı və s. aiddir.*<br><br>
+ ## Sual 77
+   **const Calc = (a) => a + 5 -** bu bir funksiyadır hansı ki, hər bir dəyişənini 5 vahid artırır.<br>
+   **const arr = [] -** yeni bir boş arrey təyin edir.<br>
+   **for (let i = 0; i < 100; i++) -** burada 0-dan 100-ə qədər olan ədədlər dövrü yaradılır.<br>
+   **arr.push(i) -** burada yuxarıda yaradılan ədədlər bir-bir arr adlı arreyin içinə yazdırılır.<br>
+   **const finalArr = arr.filter((x) => x % 2 == 0).map(Calc) -** burada arr.filter -  metodu arr adlı arreyin elemntin cüt elementlərini seçir. map(calc) - isə həmin seçilmiş cüt ədədlərin üzərinə 5 gəlib finalArr adlı arreyin içinə yazdırır.<br>
+   **console.log(finalArr) -** bu isə bizə finalArr adlı arreyi göstərir.<br>
+   **Nəticə:** 5-dən 103-ə qədər iki-iki artan ədədlər arreyi.<br>
+        
+        
+        
+        
+        
+ **-Sual 76:**<br>
+ **-Sual 75:**<br>
+ **-Sual 74:**<br>
+ **-Sual 73:**<br>
+ **-Sual 72:**<br>
+ **-Sual 71:**<br>
+ **-Sual 70:**<br>
+  # Sual 59
+  # Sual 58
+ # Sual 57
+# Sual 54
+ **-Document Object Model-də Node və Element arasındakı fərqlər nələrdir? -** DOM Element-bildiyimiz HTML teqləridir. a, body, li və s. DOM Node isə bura şərhlər iki teqin qovşağı və s. aiddir.<br>
    **-nextSibling və nextElementSibling metodları nə işə yarayır və fərqləri nələrdir?**<br>
           *nextsiblig hər hans bir elementin onla eyni yerdə olan növbəti node-a müraciət edir.nextElementSibling isə növbəti elementə müraciət edir*<br><br>
    **-HTML Events və Javascript Events arasındakı fərqlər nələrdir?**<br>
